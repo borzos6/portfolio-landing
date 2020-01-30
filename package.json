@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sibrahimpa1/portfolio-landing.git"
+  },
+  "author": "SIbra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sibrahimpa1/portfolio-landing/issues"
+  },
+  "homepage": "https://github.com/sibrahimpa1/portfolio-landing#readme",
+  "dependencies": {
+    "sal.js": "^0.7.1"
+  }
+}
