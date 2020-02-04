@@ -32,6 +32,7 @@
 		<script>
 			$(document).ready(function() {
 				$('#hero').load('compontents/hero.html');
+				$("#footer").load('compontents/footer.html');
 			});
 		</script>
 
@@ -39,19 +40,55 @@
 
 	<body>
 
-		<header>
+		<header class="wrapper"  data-sal="slide-down" data-sal-delay="200" data-sal-duration="500">
+			<a href="#">Projects</a>
+			<a href="#">Media</a>
+			<a href="#">Videos</a>
+		</header>
+
+		<div class="contact">
 			<div class="socials" data-sal="fade" data-sal-delay="200" data-sal-duration="500">
 				<a href="#"><i class="fab fa-linkedin"></i></a>
 				<a href="#"><i class="fab fa-twitter"></i></a>
 				<a href="#"><i class="fab fa-instagram"></i></a>
-			</div>
-		</header>
-
-		<div class="content">
-			<div class="wrapper--md">
-				<section id="hero" class="hero"></section>
+				<a href="#" class="email">laszlo.bekessy@codeberryschool.com</a>
 			</div>
 		</div>
+
+		<div class="content">
+			<section id="hero" class="hero wrapper"></section>
+			<section id="masonary" class="masonary wrapper">
+				<div class="cards">
+					<div id="projects" class="cards-group">
+						<h1 data-sal="fade" data-sal-delay="200" data-sal-duration="2000">
+							<!-- <div class="icon"><img src="/img/svg/brain.svg" alt=""></div> -->
+							Projects
+						</h1>
+						<div class="grid-layout projects"></div>
+					</div>
+
+					<div id="medias" class="cards-group">
+						<h1 data-sal="fade" data-sal-delay="200" data-sal-duration="2000">
+							<!-- <div class="icon"><img src="/img/svg/chat_1.svg" alt=""></div> -->
+							Media Coverage
+						</h1>
+						<div class="grid-layout medias"></div>
+					</div>
+
+					<div id="videos" class="cards-group">
+						<h1 data-sal="fade" data-sal-delay="200" data-sal-duration="2000">
+							<!-- <div class="icon"><img src="/img/svg/musical_note.svg" alt=""></div> -->
+							Videos & Podcasts
+						</h1>
+						<div class="grid-layout videos"></div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<footer>
+			<div id="footer"></div>
+		</footer>
 
 		<script src="js/index.js" charset="utf-8"></script>
 		<script src="js/masonary.js" charset="utf-8"></script>

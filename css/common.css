@@ -2,49 +2,31 @@
 
 body {
 	margin: 0;
+	font-family: "Arial";
 }
 
-header {
-	/* position: fixed; */
-	/* top: 0; */
-	width: 100%;
-	padding: 30px;
+div {
 	box-sizing: border-box;
-	height: 100px;
 }
 
-header div {
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
-
-header a {
-	font-size: 24px;
-	color: #333333;
-	padding: 0 10px;
-	margin: 0 0 0 10px;
-}
-
-.content {
-	/* margin: 100px 0 0; */
-}
-
-.content section {
-	margin: 60px 0;
+a {
+	text-decoration: none;
+	color: white;
 }
 
 .wrapper--md {
-	max-width: 990px;
+	max-width: 1040px;
+	width: 100%;
 	margin: auto;
-	padding: 40px;
+	padding: 40px 150px;
+	box-sizing: border-box;
 }
 
 .wrapper {
-	max-width: 1200px;
+	max-width: 1440px;
 	margin: auto;
-	padding: 40px;
+	padding: 40px 150px;
+	box-sizing: border-box;
 }
 
 .flex {
@@ -95,6 +77,101 @@ header a {
 	flex: 3;
 }
 
+header {
+	height: 100px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+	right: 0;
+	text-align: right;
+}
+
+header a {
+	margin: 0 0 0 40px;
+	font-size: 11px;
+	color: #f3c000;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+.contact {
+	position: fixed;
+	left: 0;
+	width: 150px;
+	padding: 150px 0 0;
+	box-sizing: border-box;
+	height: 100%;
+	top: 0;
+}
+
+.contact div {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.contact a {
+	font-size: 24px;
+	color: #333333;
+	padding: 0 10px;
+	margin: 0 0 30px;
+}
+
+.contact .email {
+	font-size: 16px;
+	transform: rotate(-90deg);
+	display: block;
+	position: absolute;
+	top: 330px;
+	color: #8a8a8a;
+}
+
+.content {}
+
+.content section {
+	margin: 100px auto;
+}
+
+footer {
+	background: white;
+	position: relative;
+}
+
+.footer__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+}
+
+.footer__content h1 {
+	color: #f3c000;
+	font-size: 46px;
+	margin: 0;
+}
+
+.footer__content .external {
+	padding: 40px 0;
+}
+
+.footer__content .mail {
+	font-size: 13px;
+}
+
+.external a {
+	font-size: 30px;
+	color: #f3c001;
+	margin: 0 20px;
+}
+
+.mail a {
+	color: #f3c000;
+}
 @media only screen and (max-width: 768px) {
 	.wrapper,
 	.wrapper--md {
