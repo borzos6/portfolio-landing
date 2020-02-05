@@ -26,18 +26,11 @@
 		<link rel="stylesheet" href="css/common.css">
 		<link rel="stylesheet" href="css/masonary.css">
 		<link rel="stylesheet" href="css/index.css">
-		<link rel="stylesheet" href="css/sal.css">
+		<!-- <link rel="stylesheet" href="css/sal.css"> -->
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
 		<script src="js/sal.js" charset="utf-8"></script>
-
-		<script>
-			$(document).ready(function() {
-				$('#hero').load('compontents/hero.html');
-				$("#footer").load('compontents/footer.html');
-			});
-		</script>
 
 	</head>
 
@@ -59,7 +52,20 @@
 		</div>
 
 		<div class="content">
-			<section id="hero" class="hero wrapper"></section>
+
+			<section id="hero" class="hero wrapper">
+				<div class="flex row m-wrap">
+					<div class="flex-1" data-sal="slide-right" data-sal-delay="200" data-sal-duration="1500">
+						<div class="hero__title">Hello.  My name is <br /><b class="yellow name">László Békéssy</b></div>
+					</div>
+					<div class="flex-1" data-sal="slide-up" data-sal-delay="500" data-sal-duration="2000">
+						<div class="hero__image">
+							<img src="./img/profile1.jpg" alt="User">
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<section id="masonary" class="masonary wrapper">
 				<div class="cards">
 					<div id="projects" class="cards-group">
@@ -90,7 +96,22 @@
 		</div>
 
 		<footer>
-			<div id="footer"></div>
+			<div id="footer">
+				<div class="footer__content">
+
+					<h1 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Reach out</h1>
+					<div class="external" data-sal="slide-up" data-sal-delay="600" data-sal-duration="1000">
+						<a href="#"><i class="fab fa-linkedin"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+					</div>
+
+					<div class="mail" data-sal="slide-up" data-sal-delay="1000" data-sal-duration="1000">
+						<a href="mailto:laszlo.bekessy@codeberryschool.com">laszlo.bekessy@codeberryschool.com</a>
+					</div>
+
+				</div>
+			</div>
 		</footer>
 
 		<script src="js/index.js" charset="utf-8"></script>
