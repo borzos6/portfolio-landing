@@ -15,8 +15,6 @@
   "bugs": {
     "url": "https://github.com/sibrahimpa1/portfolio-landing/issues"
   },
-  "homepage": "https://github.com/sibrahimpa1/portfolio-landing#readme",
-  "dependencies": {
-    "sal.js": "^0.7.1"
-  }
+  "homepage": "https://github.com/sibrahimpa1/portfolio-landing#readme"
+
 }
