@@ -22,6 +22,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	z-index: 10;
 }
 
 .grid-item:nth-child(odd) {
@@ -50,9 +51,7 @@
 	color: #f3c001;
 	margin: 0 0 50px;
 	padding: 0 0 20px;
-	/* border-bottom: 2px solid #f1f1f1; */
-	display: flex;
-	align-items: center;
+	font-family: "Source Sans Pro", "Roboto";
 }
 
 .cards .icon {
@@ -71,7 +70,7 @@
 }
 
 .card__bottom {
-	z-index: 200;
+	z-index: 10;
 }
 
 .card .project-name {
@@ -84,29 +83,69 @@
 	left: 10px;
 }
 
-.card .lang {
+.lang {
 	position: absolute;
 	top: 10px;
 	right: 10px;
 	width: 35px;
 	font-size: 16px;
-	border-radius: 2px;
 	height: 35px;
-	background: #2d2d2d;
+	background: #f3c10c;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-radius: 50%;
+	cursor: pointer;
+	z-index: 8000;
+	color: white;
+	font-weight: 700;
+}
+
+.lang__list {
+	position: absolute;
+	top: 45px;
+	right: 10px;
+	background: #ffffff;
+	padding: 10px 20px;
+	max-width: calc(100% - 20px);
+	width: 100%;
+	z-index: 3000;
+	word-break: break-word;
+	line-height: 20px;
+	text-transform: none;
+	font-weight: 100;
+	font-size: 12px;
+	max-height: 50%;
+	overflow: scroll;
+	display: none;
+}
+
+.media-card__top .lang__list {
+	max-width: 100%;
+	background: white;
+	height: 100%;
+	right: 0;
+	max-height: calc(100% - 45px);
+}
+
+.lang__list .item {
+	text-transform: none;
+	font-weight: 400;
+	padding: 4px 0;
+	font-size: 13px;
+	color: #333333;
 }
 
 .card .title {
 	text-transform: none;
 	font-weight: bold;
+	font-family: "Source Sans Pro";
 }
 
 .card .desc {
 	text-transform: none;
 	font-weight: 100;
+	z-index: 10;
+	position: relative;
 }
 
 .card .media-name {
@@ -122,11 +161,11 @@
 }
 
 .span-2 .title {
-	font-size: 30px;
+	font-size: 28px;
 }
 
 .span-3 .title {
-	font-size: 40px;
+	font-size: 36px;
 }
 
 .span-1 .desc {
@@ -137,7 +176,7 @@
 
 .span-2 .desc {
 	padding: 20px 0;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 22px;
 }
 
@@ -192,8 +231,9 @@
 	height: 100%;
 	bottom: 0;
 	right: 0;
-	background: rgb(32,5,5);
-	background: linear-gradient(0deg, rgba(7, 5, 41, 0.94) 0%, rgba(36, 33, 72, 0.66) 100%);
+	background: rgb(1,10,52);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.47) 100%);
+	z-index: 10;
 }
 
 .videos .card::before {
@@ -214,13 +254,76 @@
 }
 
 .medias .project-name {
-	background: #bf4c65;
+	background: #333333;
 }
 
 .videos .project-name {
-	background: #45b5a1;
+	background: #333333;
 }
 
+.videos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.media-card {
+	border-radius: 3px;
+	border: 1px solid #ececec;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 0 20px;
+	position: relative;
+	width: 49%;
+}
+
+.media-card__top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.media-card__top .lang {
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	width: 25px;
+	height: 25px;
+}
+
+.media-card__top .project-name {
+	font-size: 12px;
+	padding: 5px 10px;
+}
+
+.media-card__bottom {
+	margin: 60px 0 0;
+}
+
+.media-card__bottom .title {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+	max-width: 90%;
+	font-family: "Source Sans Pro";
+}
+
+.media-card__bottom .desc {
+	color: #1f1f1f;
+	font-size: 14px;
+	margin: 10px 0 0;
+	line-height: 17px;
+	font-weight: 100;
+}
+
+.media-card__bottom .media-name {
+	color: #1d1d1d;
+	font-size: 12px;
+	text-align: right;
+	display: block;
+	margin: 10px 0 0;
+}
 @media only screen and (max-width: 768px) {
 	.grid-layout {
 		grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
