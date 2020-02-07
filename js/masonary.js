@@ -7,7 +7,7 @@ $.getJSON( "./js/data.json", function( data ) {
 			mediasList = '',
 			videosList = '';
 
-	var cardOptions = [3,1,1,1,1,2,2,1,1,1,3,1,2,1,1,2,1,1,1,3],
+	var cardOptions = [3,1,1,2,1,1,2,2,1,1,1,3,1,2,1,1,2,1,1,1],
 			optionIterator = 0;
 
 	projectsList = appendListItems(projects, cardOptions, optionIterator, "projects");

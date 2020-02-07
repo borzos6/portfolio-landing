@@ -1,196 +1,45 @@
 {
 	"projects": [
 		{
-			"imgUrl": "https://images.pexels.com/photos/842339/pexels-photo-842339.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+			"imgUrl": "https://v2.codeberryschool.com/assets/img/branding-guidelines/icon-white.svg",
 			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
+			"projectName": "CodeBerry",
 			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
+			"languages": ["English (US)","Hungarian","Romanian", "Polish", "Indonesian", "Vietnamese", "Portuguese (BR)", "Spanish (MX)"],
 			"projectUrl": "https://codeberryschool.com"
 		},
 		{
-			"imgUrl": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
-			"projectUrl": "https://codeberryschool.com"
+			"imgUrl": "https://yearcompass.com/assets/img/insta_landing/2.jpg",
+			"name": "YearCompass",
+			"projectName": "YearCompass",
+			"description": "YearCompass is a booklet that helps close your year and plan the next one. New Year's resolutions don't work; planning your year does.",
+			"languages": ["English (US)","Hungarian","Romanian", "Polish", "Indonesian", "Vietnamese"],
+			"projectUrl": "https://yearcompass.com"
 		},
 		{
-			"imgUrl": "https://images.pexels.com/photos/842339/pexels-photo-842339.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
-			"projectUrl": "https://codeberryschool.com"
+			"imgUrl": "https://ucc03a03f6e7643757a1bec4c231.previews.dropboxusercontent.com/p/thumb/AAu_OqPtE9WlvAU8fQR0AoOnL3qexHaIVsHm3wKLPkI0jviVNwNtLFIpdaQdQk1HaWHBMPuYdeNpZooy_SJHMklhHvs6omELNTH6IuR9ixT4OeKez7XzylNcoiK3rTa8n3bli37SjFGC3T2ZLXmfQl2L4BnG13uX8zAaNCLQBAbb7cfSBqKMSp2vb5kOrLO6Uu7qCHmIti28Y3jGFb-8pInX1ur25N1JtCqP-XBZMvXVfhaw7tjxzh7aqlSKwVd3koKKlO3KKVl7OWIparrPirXzYeeOZRGQffHZ-c3P1-cRLiC9WjSe0hOkc8zxvEU3WVc9JSFPM_-RCBRDTNVlljTgs1kCQaiqDideNWbwgaM8_l3QepQj-BezDEICrRbQxFwOx2TZoqdo5efl1wGP7inT/p.png?fv_content=true&size_mode=5",
+			"name": "Invisible University international",
+			"projectName": "Invisible University international",
+			"description": "Invisible University helps university students and young adults to learn life skills such as time management, personal finances, mindfulness in peer groups.",
+			"languages": ["Hungarian"],
+			"projectUrl": "http://lathatatlanegyetem.hu"
 		},
 		{
-			"imgUrl": "https://images.pexels.com/photos/842339/pexels-photo-842339.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
-			"projectUrl": "https://codeberryschool.com"
-		},
-		{
-			"imgUrl": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
-			"projectUrl": "https://codeberryschool.com"
-		},
-		{
-			"imgUrl": "https://images.pexels.com/photos/842339/pexels-photo-842339.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
-			"projectUrl": "https://codeberryschool.com"
-		},
-		{
-			"imgUrl": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
-			"projectUrl": "https://codeberryschool.com"
-		},
-		{
-			"imgUrl": "https://images.pexels.com/photos/842339/pexels-photo-842339.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
-			"projectUrl": "https://codeberryschool.com"
-		},
-		{
-			"imgUrl": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
-			"projectUrl": "https://codeberryschool.com"
-		},
-		{
-			"imgUrl": "https://www.walterspeople.co.uk/content/dam/walters-people/global/images/article-images/wp-editorial-working-together.jpg",
-			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
-			"projectUrl": "https://codeberryschool.com"
-		},
-		{
-			"imgUrl": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
-			"projectUrl": "https://codeberryschool.com"
-		},
-		{
-			"imgUrl": "https://www.walterspeople.co.uk/content/dam/walters-people/global/images/article-images/wp-editorial-working-together.jpg",
-			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
-			"projectUrl": "https://codeberryschool.com"
-		},
-		{
-			"imgUrl": "https://www.walterspeople.co.uk/content/dam/walters-people/global/images/article-images/wp-editorial-working-together.jpg",
-			"name": "CodeBerry",
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English","Bosnian","Hungarian"],
-			"projectUrl": "https://codeberryschool.com"
+			"imgUrl": "https://uce87a277376114975c911108b5c.previews.dropboxusercontent.com/p/thumb/AAvwUMmYPEYgj9EGY5a67IVnZzPfGT3UJ2qWWeqF5c97cPtXRJcmo8eaXowGkutFRAb0IW0DUVE2htOykDO3N8wvxl6Wu54lwIkviNajSvR73HuQsLqY3CPaqKadbPBlt8bAZa7FZk_-EKgdFtRieRMlaYDGQunImm9tsnwjQSLLOMweEgpV6uTJbgVhH3fB78a2LP1fj5aVp6HDMHlxvaAJ5R2aShvm72QMTBTjiTKN-4AJT_g5hogQ48jmYSJ82uFl7NpVEHoANH3vq3C97ygs_ny2X98txMVXaFZjKezh0aQV61UBNP91auQOsEaYlEsRZidfGcaBpN0CXqoB3MSCkLtv8Bl6e86Ti-nEXiCRIR3zc4O0ilf29ULUroyp7X3S7nalF41g8-ugUbNsn_UHKuTCrsRxsOYUagiCN1Vr6lspIKMK0LsJIOBC73bPoZMk4GTR1VugBJYGE4cBLdnG/p.png?fv_content=true&size_mode=5",
+			"name": "Sites against humanity",
+			"projectName": "Sites against humanity",
+			"description": "Saw an awful site? Shoot it into the sun.",
+			"languages": ["Hungarian"],
+			"projectUrl": "https://napbalonem.net"
 		}
 	],
 	"media": [
 		{
-			"imgUrl": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-			"name": "Representing YearCompass in Forbes magazine",
-			"description": "An article about the YearCompass movement in Forbes magazine, 2019 January",
-			"languages": ["Hungarian", "Bosnian", "Test"],
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"postUrl": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/",
-			"mediaName": "Forbes",
-			"mediaUrl": "https://forbes.hu/"
-		},
-		{
-			"imgUrl": "https://www.walterspeople.co.uk/content/dam/walters-people/global/images/article-images/wp-editorial-working-together.jpg",
+			"imgUrl": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbespr%2Ffiles%2F2018%2F02%2FForbes-Crypto-Cover-Binance-1200x1559.jpg",
 			"name": "Representing YearCompass in Forbes magazine",
 			"description": "An article about the YearCompass movement in Forbes magazine, 2019 January",
 			"languages": ["Hungarian"],
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"postUrl": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/",
-			"mediaName": "Forbes",
-			"mediaUrl": "https://forbes.hu/"
-		},
-		{
-			"imgUrl": "https://www.walterspeople.co.uk/content/dam/walters-people/global/images/article-images/wp-editorial-working-together.jpg",
-			"name": "Representing YearCompass in Forbes magazine",
-			"description": "An article about the YearCompass movement in Forbes magazine, 2019 January",
-			"languages": ["Hungarian"],
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"postUrl": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/",
-			"mediaName": "Forbes",
-			"mediaUrl": "https://forbes.hu/"
-		},
-		{
-			"imgUrl": "https://www.walterspeople.co.uk/content/dam/walters-people/global/images/article-images/wp-editorial-working-together.jpg",
-			"name": "Representing YearCompass in Forbes magazine",
-			"description": "An article about the YearCompass movement in Forbes magazine, 2019 January",
-			"languages": ["Hungarian"],
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"postUrl": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/",
-			"mediaName": "Forbes",
-			"mediaUrl": "https://forbes.hu/"
-		},
-		{
-			"imgUrl": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-			"name": "Representing YearCompass in Forbes magazine",
-			"description": "An article about the YearCompass movement in Forbes magazine, 2019 January",
-			"languages": ["Hungarian"],
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"postUrl": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/",
-			"mediaName": "Forbes",
-			"mediaUrl": "https://forbes.hu/"
-		},
-		{
-			"imgUrl": "https://www.walterspeople.co.uk/content/dam/walters-people/global/images/article-images/wp-editorial-working-together.jpg",
-			"name": "Representing YearCompass in Forbes magazine",
-			"description": "An article about the YearCompass movement in Forbes magazine, 2019 January",
-			"languages": ["Hungarian"],
-			"projectName": "Project Name",
-			"projectUrl": "https://yearcompass.com",
-			"postUrl": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/",
-			"mediaName": "Forbes",
-			"mediaUrl": "https://forbes.hu/"
-		},
-		{
-			"imgUrl": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-			"name": "Representing YearCompass in Forbes magazine",
-			"description": "An article about the YearCompass movement in Forbes magazine, 2019 January",
-			"languages": ["Hungarian"],
-			"projectName": "Project Name",
+			"projectName": "YearCompass",
 			"projectUrl": "https://yearcompass.com",
 			"postUrl": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/",
 			"mediaName": "Forbes",
@@ -199,14 +48,14 @@
 	],
 	"videos": [
 		{
-			"name": "Interview about year-planning 2017 December (Kossuth rádió, Hungary)",
-			"description": "Talking about the importance of year-planning in 2017 December",
-			"languages": ["Hungarian"],
-			"videoUrl": "https://soundcloud.com/yearcompass/kossuth-radio-interju-2017-12-28",
-			"projectName": "YearCompass",
-			"projectUrl": "https://yearcompass.com",
-			"mediaName": "Kossuth rádió",
-			"mediaUrl": "https://mediaklikk.hu/kossuth/"
+			"name": "EU Top 50 pitch 2018",
+			"description": "Pitching CodeBerry in the EU Parliament participating in the EU Top 50 competition in 2018",
+			"languages": ["English"],
+			"videoUrl": "https://www.youtube.com/watch?v=8FIztJWTvZs&feature=youtu.be",
+			"projectName": "CodeBerry",
+			"projectUrl": "https://codeberryschool.com",
+			"mediaName": "YouTube",
+			"mediaUrl": "https://www.youtube.com"
 		},
 		{
 			"name": "Interview about year-planning 2017 December (Kossuth rádió, Hungary)",
@@ -219,54 +68,24 @@
 			"mediaUrl": "https://mediaklikk.hu/kossuth/"
 		},
 		{
-			"name": "Interview about year-planning 2017 December (Kossuth rádió, Hungary)",
+			"name": "Interview with Békéssy László / YearCompass",
 			"description": "Talking about the importance of year-planning in 2017 December",
 			"languages": ["Hungarian"],
-			"videoUrl": "https://soundcloud.com/yearcompass/kossuth-radio-interju-2017-12-28",
+			"videoUrl": "https://soundcloud.com/yearcompass/bukarest-radio-interju-2015-01-14",
 			"projectName": "YearCompass",
 			"projectUrl": "https://yearcompass.com",
-			"mediaName": "Kossuth rádió",
-			"mediaUrl": "https://mediaklikk.hu/kossuth/"
+			"mediaName": "Bukarest Rádió",
+			"mediaUrl": "https://mediaklikk.hu"
 		},
 		{
-			"name": "Interview about year-planning 2017 December (Kossuth rádió, Hungary)",
+			"name": "Interview with P. Tóth András / YearCompass",
 			"description": "Talking about the importance of year-planning in 2017 December",
 			"languages": ["Hungarian"],
-			"videoUrl": "https://soundcloud.com/yearcompass/kossuth-radio-interju-2017-12-28",
+			"videoUrl": "https://soundcloud.com/yearcompass/erdfm-interview-about-yearcompass-hungarian",
 			"projectName": "YearCompass",
 			"projectUrl": "https://yearcompass.com",
-			"mediaName": "Kossuth rádió",
-			"mediaUrl": "https://mediaklikk.hu/kossuth/"
-		},
-		{
-			"name": "Interview about year-planning 2017 December (Kossuth rádió, Hungary)",
-			"description": "Talking about the importance of year-planning in 2017 December",
-			"languages": ["Hungarian"],
-			"videoUrl": "https://soundcloud.com/yearcompass/kossuth-radio-interju-2017-12-28",
-			"projectName": "YearCompass",
-			"projectUrl": "https://yearcompass.com",
-			"mediaName": "Kossuth rádió",
-			"mediaUrl": "https://mediaklikk.hu/kossuth/"
-		},
-		{
-			"name": "Interview about year-planning 2017 December (Kossuth rádió, Hungary)",
-			"description": "Talking about the importance of year-planning in 2017 December",
-			"languages": ["Hungarian"],
-			"videoUrl": "https://soundcloud.com/yearcompass/kossuth-radio-interju-2017-12-28",
-			"projectName": "YearCompass",
-			"projectUrl": "https://yearcompass.com",
-			"mediaName": "Kossuth rádió",
-			"mediaUrl": "https://mediaklikk.hu/kossuth/"
-		},
-		{
-			"name": "Interview about year-planning 2017 December (Kossuth rádió, Hungary)",
-			"description": "Talking about the importance of year-planning in 2017 December",
-			"languages": ["Hungarian"],
-			"videoUrl": "https://soundcloud.com/yearcompass/kossuth-radio-interju-2017-12-28",
-			"projectName": "YearCompass",
-			"projectUrl": "https://yearcompass.com",
-			"mediaName": "Kossuth rádió",
-			"mediaUrl": "https://mediaklikk.hu/kossuth/"
+			"mediaName": "Érd.FM",
+			"mediaUrl": "http://xn--rd-9ia.fm/"
 		}
 	]
 }

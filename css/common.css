@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-	color: #f3c000 !important;
+	color: #64dcb0 !important;
 }
 
 .wrapper--md {
@@ -95,7 +95,7 @@ header {
 header a {
 	margin: 0 0 0 40px;
 	font-size: 12px;
-	color: #f3c000;
+	color: #647ddc;
 	text-transform: uppercase;
 	font-weight: 800;
 	letter-spacing: 1px;
@@ -131,7 +131,7 @@ header a {
 	transform: rotate(-90deg);
 	display: block;
 	position: absolute;
-	top: 330px;
+	top: 240px;
 	color: #1d1d1d;
 	font-family: "Source Sans Pro";
 	font-weight: 100;
@@ -177,11 +177,11 @@ footer {
 }
 
 .mail a {
-	color: #f3c000;
+	color: #64dcb0;
 }
 
 .yellow {
-	color: #f3c000;
+	color: #64dcb0;
 }
 @media only screen and (max-width: 768px) {
 	.wrapper,

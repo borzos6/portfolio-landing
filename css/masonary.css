@@ -21,12 +21,12 @@
 	color: white;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
 	z-index: 10;
+	background-position: center 0;
 }
 
 .grid-item:nth-child(odd) {
-	background-color: #101010;
+	background-color: #656565;
 }
 
 .span-2 {
@@ -48,7 +48,7 @@
 
 .cards h1 {
 	font-size: 82px;
-	color: #f3c001;
+	color: #647ddc;
 	margin: 0 0 50px;
 	padding: 0 0 20px;
 	font-family: "Source Sans Pro", "Roboto";
@@ -90,7 +90,7 @@
 	width: 35px;
 	font-size: 16px;
 	height: 35px;
-	background: #f3c10c;
+	background: #64dcb0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -151,8 +151,10 @@
 .card .media-name {
 	text-align: right;
 	text-transform: none;
-	font-weight: 100;
 	display: block;
+	color: #64dcb0;
+	font-weight: 700;
+	letter-spacing: .4px;
 }
 /* cards properties depending on box size */
 .span-1 .title {
