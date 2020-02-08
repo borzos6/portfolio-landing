@@ -9,14 +9,6 @@
 			"projectUrl": "https://codeberryschool.com"
 		},
 		{
-			"imgUrl": "https://yearcompass.com/assets/img/insta_landing/2.jpg",
-			"name": "YearCompass",
-			"projectName": "YearCompass",
-			"description": "YearCompass is a booklet that helps close your year and plan the next one. New Year's resolutions don't work; planning your year does.",
-			"languages": ["English (US)","Hungarian","Romanian", "Polish", "Indonesian", "Vietnamese"],
-			"projectUrl": "https://yearcompass.com"
-		},
-		{
 			"imgUrl": "https://ucc03a03f6e7643757a1bec4c231.previews.dropboxusercontent.com/p/thumb/AAu_OqPtE9WlvAU8fQR0AoOnL3qexHaIVsHm3wKLPkI0jviVNwNtLFIpdaQdQk1HaWHBMPuYdeNpZooy_SJHMklhHvs6omELNTH6IuR9ixT4OeKez7XzylNcoiK3rTa8n3bli37SjFGC3T2ZLXmfQl2L4BnG13uX8zAaNCLQBAbb7cfSBqKMSp2vb5kOrLO6Uu7qCHmIti28Y3jGFb-8pInX1ur25N1JtCqP-XBZMvXVfhaw7tjxzh7aqlSKwVd3koKKlO3KKVl7OWIparrPirXzYeeOZRGQffHZ-c3P1-cRLiC9WjSe0hOkc8zxvEU3WVc9JSFPM_-RCBRDTNVlljTgs1kCQaiqDideNWbwgaM8_l3QepQj-BezDEICrRbQxFwOx2TZoqdo5efl1wGP7inT/p.png?fv_content=true&size_mode=5",
 			"name": "Invisible University international",
 			"projectName": "Invisible University international",
@@ -31,6 +23,14 @@
 			"description": "Saw an awful site? Shoot it into the sun.",
 			"languages": ["Hungarian"],
 			"projectUrl": "https://napbalonem.net"
+		},
+		{
+			"imgUrl": "https://yearcompass.com/assets/img/insta_landing/2.jpg",
+			"name": "YearCompass",
+			"projectName": "YearCompass",
+			"description": "YearCompass is a booklet that helps close your year and plan the next one. New Year's resolutions don't work; planning your year does.",
+			"languages": ["English (US)","Hungarian","Romanian", "Polish", "Indonesian", "Vietnamese"],
+			"projectUrl": "https://yearcompass.com"
 		}
 	],
 	"media": [
@@ -50,7 +50,7 @@
 		{
 			"name": "EU Top 50 pitch 2018",
 			"description": "Pitching CodeBerry in the EU Parliament participating in the EU Top 50 competition in 2018",
-			"languages": ["English"],
+			"languages": ["EN"],
 			"videoUrl": "https://www.youtube.com/watch?v=8FIztJWTvZs&feature=youtu.be",
 			"projectName": "CodeBerry",
 			"projectUrl": "https://codeberryschool.com",
@@ -60,7 +60,7 @@
 		{
 			"name": "Interview about year-planning 2017 December (Kossuth rádió, Hungary)",
 			"description": "Talking about the importance of year-planning in 2017 December",
-			"languages": ["Hungarian"],
+			"languages": ["HU"],
 			"videoUrl": "https://soundcloud.com/yearcompass/kossuth-radio-interju-2017-12-28",
 			"projectName": "YearCompass",
 			"projectUrl": "https://yearcompass.com",
@@ -70,7 +70,7 @@
 		{
 			"name": "Interview with Békéssy László / YearCompass",
 			"description": "Talking about the importance of year-planning in 2017 December",
-			"languages": ["Hungarian"],
+			"languages": ["HU"],
 			"videoUrl": "https://soundcloud.com/yearcompass/bukarest-radio-interju-2015-01-14",
 			"projectName": "YearCompass",
 			"projectUrl": "https://yearcompass.com",
@@ -80,7 +80,7 @@
 		{
 			"name": "Interview with P. Tóth András / YearCompass",
 			"description": "Talking about the importance of year-planning in 2017 December",
-			"languages": ["Hungarian"],
+			"languages": ["HU"],
 			"videoUrl": "https://soundcloud.com/yearcompass/erdfm-interview-about-yearcompass-hungarian",
 			"projectName": "YearCompass",
 			"projectUrl": "https://yearcompass.com",

@@ -84,18 +84,20 @@ a:hover {
 
 header {
 	height: 100px;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	width: 100%;
 	left: 0;
 	right: 0;
 	text-align: right;
+	background-color: white;
+	z-index: 8000;
 }
 
 header a {
 	margin: 0 0 0 40px;
 	font-size: 12px;
-	color: #647ddc;
+	color: #64dcb0;
 	text-transform: uppercase;
 	font-weight: 800;
 	letter-spacing: 1px;
@@ -129,18 +131,30 @@ header a {
 .contact .email {
 	font-size: 16px;
 	transform: rotate(-90deg);
-	display: block;
+	display: flex;
 	position: absolute;
-	top: 240px;
+	top: 210px;
 	color: #1d1d1d;
 	font-family: "Source Sans Pro";
 	font-weight: 100;
+	align-items: center;
+	font-weight: 400;
+}
+
+.contact .email .fa {
+	margin: 0 0 0 20px;
+	font-size: 21px;
+	transform: rotate(90deg);
 }
 
 .content {}
 
 .content section {
 	margin: 100px auto;
+}
+
+.content section#masonary {
+	margin: 0;
 }
 
 footer {
@@ -151,9 +165,9 @@ footer {
 .footer__content {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	height: 100vh;
 	align-items: center;
+	padding: 140px 0 0;
 }
 
 .footer__content h1 {
@@ -181,7 +195,7 @@ footer {
 }
 
 .yellow {
-	color: #64dcb0;
+	color: #647ddc;
 }
 @media only screen and (max-width: 768px) {
 	.wrapper,

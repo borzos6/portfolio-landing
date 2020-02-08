@@ -14,4 +14,10 @@ window.onload = function() {
 			$(".contact div").show();
 		}
 	});
+
+	$(".see-more").on('click', function(){
+		$([document.documentElement, document.body]).animate({
+        scrollTop: $("#masonary").offset().top - 90
+    }, 1000);
+	});
 };

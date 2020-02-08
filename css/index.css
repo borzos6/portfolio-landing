@@ -3,7 +3,7 @@
 }
 
 .hero__image {
-	height: 550px;
+	height: 520px;
 	position: relative;
 	overflow: hidden;
 }
@@ -29,6 +29,55 @@
 .hero__image img {
 	width: 100%;
 	object-fit: cover;
+}
+
+.hero .see-more {
+	color: #64dcb0;
+	text-align: center;
+	display: flex;
+	font-size: 45px;
+	margin: 50px 0 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero .see-more .fa {
+	line-height: 56px;
+	animation: pulse 2s infinite;
+	background: white;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-box-shadow: 0 0 0 0 rgb(100, 220, 176);
+	}
+
+	70% {
+		-webkit-box-shadow: 0 0 0 10px rgba(72, 169, 66, 0);
+	}
+
+	100% {
+		-webkit-box-shadow: 0 0 0 0 rgba(72, 169, 66, 0);
+	}
+}
+@keyframes pulse {
+	0% {
+		-moz-box-shadow: 0 0 0 0 rgb(100, 220, 176);
+		box-shadow: 0 0 0 0 rgb(100, 220, 176);
+	}
+
+	70% {
+		-moz-box-shadow: 0 0 0 10px rgba(72, 169, 66, 0);
+		box-shadow: 0 0 0 15px rgba(72, 169, 66, 0);
+	}
+
+	100% {
+		-moz-box-shadow: 0 0 0 0 rgba(72, 169, 66, 0);
+		box-shadow: 0 0 0 0 rgba(72, 169, 66, 0);
+	}
 }
 
 .hero__title {

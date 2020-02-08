@@ -46,6 +46,10 @@
 	margin: 0 0 200px;
 }
 
+.cards-group#videos {
+	margin: 0;
+}
+
 .cards h1 {
 	font-size: 82px;
 	color: #647ddc;
@@ -73,20 +77,10 @@
 	z-index: 10;
 }
 
-.card .project-name {
-	height: 35px;
-	display: flex;
-	align-items: center;
-	letter-spacing: .5px;
-	position: absolute;
-	top: 10px;
-	left: 10px;
-}
-
 .lang {
 	position: absolute;
-	top: 10px;
-	right: 10px;
+	top: 20px;
+	right: 20px;
 	width: 35px;
 	font-size: 16px;
 	height: 35px;
@@ -98,17 +92,54 @@
 	z-index: 8000;
 	color: white;
 	font-weight: 700;
+	transition: all .2s linear;
+}
+
+.video-card__top .fixed-lang {
+	top: 10px;
+	right: 10px;
+	width: 50px;
+	font-size: 14px;
+	height: 30px;
+	position: absolute;
+	background: #64dcb0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	z-index: 8000;
+	color: white;
+	font-weight: 700;
+	transition: all .2s linear;
+}
+
+.video-card__top .fixed-lang .fa {
+	margin: 0 5px 0 0;
+	font-size: 14px;
+}
+
+.lang.hovered .fa {
+	display: none;
+}
+
+.lang span {
+	font-size: 11px;
+	display: none;
+	position: absolute;
+}
+
+.lang.hovered {
+	width: 105px;
 }
 
 .lang__list {
 	position: absolute;
-	top: 45px;
-	right: 10px;
+	top: 55px;
+	right: 20px;
 	background: #ffffff;
 	padding: 10px 20px;
-	max-width: calc(100% - 20px);
-	width: 100%;
 	z-index: 3000;
+	min-width: 50%;
 	word-break: break-word;
 	line-height: 20px;
 	text-transform: none;
@@ -148,13 +179,23 @@
 	position: relative;
 }
 
+.card .tags {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.card .project-name {
+	height: 30px;
+	display: flex;
+	align-items: center;
+	letter-spacing: .5px;
+}
+
 .card .media-name {
-	text-align: right;
-	text-transform: none;
-	display: block;
-	color: #64dcb0;
-	font-weight: 700;
-	letter-spacing: .4px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	letter-spacing: .5px;
 }
 /* cards properties depending on box size */
 .span-1 .title {
@@ -188,19 +229,22 @@
 	padding: 30px 0;
 }
 
+.span-1 .media-name,
 .span-1 .project-name {
 	font-size: 10px;
 	padding: 0 10px;
 }
 
+.span-2 .media-name,
 .span-2 .project-name {
 	font-size: 12px;
 	padding: 0 10px;
 }
 
+.span-3 .media-name,
 .span-3 .project-name {
 	font-size: 12px;
-	padding: 0 20px;
+	padding: 0 15px;
 }
 
 .span-1 {}
@@ -219,7 +263,7 @@
 	bottom: 0;
 	right: 0;
 	background: rgb(1,10,52);
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.47) 100%);
+	background: linear-gradient(0deg, rgb(17, 27, 68) 0%, rgba(13, 115, 138, 0.37) 100%);
 	z-index: 10;
 	transition: all .3s linear;
 }
@@ -234,7 +278,7 @@
 	bottom: 0;
 	right: 0;
 	background: rgb(1,10,52);
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.47) 100%);
+	background: linear-gradient(0deg, rgb(17, 27, 68) 0%, rgba(13, 115, 138, 0.37) 100%);
 	z-index: 10;
 }
 
@@ -255,12 +299,19 @@
 	background: #bf4c64;
 }
 
+.medias .media-name,
 .medias .project-name {
-	background: #333333;
+	background: #647ddc;
+	margin: 0 0 0 10px;
 }
 
 .videos .project-name {
 	background: #333333;
+	padding: 0 10px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
 }
 
 .videos {

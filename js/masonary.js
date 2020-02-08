@@ -20,11 +20,14 @@ $.getJSON( "./js/data.json", function( data ) {
 			$(".medias").append(mediasList);
 			$(".videos").append(videosList);
 			$(".lang").on('mouseenter', function(){
-				console.log('lang hover');
+				$(this).addClass('hovered');
 				$(this).closest(".card__top").find(".lang__list").slideToggle();
+				$(this).closest(".card__top").find(".lang span").fadeIn();
 			});
 			$(".lang").on('mouseleave', function(){
 				$(".lang__list").hide();
+				$(this).closest(".card__top").find(".lang span").hide();
+				$(this).removeClass('hovered');
 			});
 			clearInterval(waitContent);
 		}
@@ -41,9 +44,9 @@ function appendListItems(array, order, i, type){
 				languages += `<div class="item">${val}</div>`;
 			});
 			list += `
-				<div class="grid-item span-${order[i]} card" style="background-image: url(${val.imgUrl})" data-sal="slide-up" data-sal-duration="2000" data-sal-easing="ease-out-back">
+				<div class="grid-item span-${order[i]} card" style="background-image: url(${val.imgUrl})" data-sal="fade" data-sal-duration="1000">
 					<div class="card__top">
-						<div class="lang">${val.languages.length}</div>
+						<div class="lang"><span>Available in:</span><i class="fa fa-globe"></i></div>
 						<div class="lang__list">
 							${languages}
 						</div>
@@ -66,8 +69,7 @@ function appendListItems(array, order, i, type){
 			list += `
 				<div class="grid-item span-${order[i]} card" style="background-image: url(${val.imgUrl})" data-sal="fade" data-sal-duration="2000" data-sal-easing="ease-out-back">
 					<div class="card__top">
-						<a href="${val.projectUrl}" class="project-name">${val.projectName}</a>
-						<div class="lang">${val.languages.length}</div>
+						<div class="lang"><span>Available in:</span><i class="fa fa-globe"></i></div>
 						<div class="lang__list">
 							${languages}
 						</div>
@@ -75,7 +77,10 @@ function appendListItems(array, order, i, type){
 					<div class="card__bottom">
 						<a href="${val.postUrl}" class="title">${val.name}</a>
 						<div class="desc">${val.description}</div>
-						<a href="${val.mediaUrl}" class="media-name">${val.mediaName}</a>
+						<div class="tags">
+							<a href="${val.projectUrl}" class="project-name">${val.projectName}</a>
+							<a href="${val.mediaUrl}" class="media-name">${val.mediaName}</a>
+						</div>
 					</div>
 				</div>`
 			if(i!=20) i+=1;
@@ -90,12 +95,9 @@ function appendListItems(array, order, i, type){
 			});
 			list += `
 				<div class="media-card" data-sal="slide-up" data-sal-duration="600" data-sal-easing="ease-out-back">
-					<div class="media-card__top card__top">
+					<div class="video-card__top card__top">
 						<a href="${val.projectUrl}" class="project-name">${val.projectName}</a>
-						<div class="lang">${val.languages.length}</div>
-						<div class="lang__list">
-							${languages}
-						</div>
+						<div class="fixed-lang"><i class="fa fa-globe"></i>${languages}</div>
 					</div>
 					<div class="media-card__bottom">
 						<div class="title">${val.name}</div>
