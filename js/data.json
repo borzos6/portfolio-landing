@@ -1,36 +1,36 @@
 {
 	"projects": [
 		{
-			"imgUrl": "https://v2.codeberryschool.com/assets/img/branding-guidelines/icon-white.svg",
+			"imgUrl": "./img/projects/codeberry.jpeg",
 			"name": "CodeBerry",
-			"projectName": "CodeBerry",
+			"projectName": "CodeBerry2222",
 			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": ["English (US)","Hungarian","Romanian", "Polish", "Indonesian", "Vietnamese", "Portuguese (BR)", "Spanish (MX)"],
+			"languages": ["English (US)", "Hungarian", "Romanian", "Polish", "Indonesian", "Vietnamese", "Portuguese (BR)", "Spanish (MX)"],
 			"projectUrl": "https://codeberryschool.com"
 		},
+        {
+          "imgUrl": "./img/projects/yearcompass.jpg",
+          "name": "YearCompass",
+          "projectName": "YearCompass",
+          "description": "YearCompass is a booklet that helps close your year and plan the next one. New Year's resolutions don't work; planning your year does.",
+          "languages": ["English (US)", "Hungarian", "中文 (汉语)", "日本語", "Русский", "עברית", "العربية", "and 40+ other languages"],
+          "projectUrl": "https://yearcompass.com"
+        },
 		{
-			"imgUrl": "https://ucc03a03f6e7643757a1bec4c231.previews.dropboxusercontent.com/p/thumb/AAu_OqPtE9WlvAU8fQR0AoOnL3qexHaIVsHm3wKLPkI0jviVNwNtLFIpdaQdQk1HaWHBMPuYdeNpZooy_SJHMklhHvs6omELNTH6IuR9ixT4OeKez7XzylNcoiK3rTa8n3bli37SjFGC3T2ZLXmfQl2L4BnG13uX8zAaNCLQBAbb7cfSBqKMSp2vb5kOrLO6Uu7qCHmIti28Y3jGFb-8pInX1ur25N1JtCqP-XBZMvXVfhaw7tjxzh7aqlSKwVd3koKKlO3KKVl7OWIparrPirXzYeeOZRGQffHZ-c3P1-cRLiC9WjSe0hOkc8zxvEU3WVc9JSFPM_-RCBRDTNVlljTgs1kCQaiqDideNWbwgaM8_l3QepQj-BezDEICrRbQxFwOx2TZoqdo5efl1wGP7inT/p.png?fv_content=true&size_mode=5",
-			"name": "Invisible University international",
-			"projectName": "Invisible University international",
+			"imgUrl": "./img/projects/invisible-university.jpg",
+			"name": "Invisible University International",
+			"projectName": "Invisible University International",
 			"description": "Invisible University helps university students and young adults to learn life skills such as time management, personal finances, mindfulness in peer groups.",
 			"languages": ["Hungarian"],
 			"projectUrl": "http://lathatatlanegyetem.hu"
 		},
 		{
-			"imgUrl": "https://uce87a277376114975c911108b5c.previews.dropboxusercontent.com/p/thumb/AAvwUMmYPEYgj9EGY5a67IVnZzPfGT3UJ2qWWeqF5c97cPtXRJcmo8eaXowGkutFRAb0IW0DUVE2htOykDO3N8wvxl6Wu54lwIkviNajSvR73HuQsLqY3CPaqKadbPBlt8bAZa7FZk_-EKgdFtRieRMlaYDGQunImm9tsnwjQSLLOMweEgpV6uTJbgVhH3fB78a2LP1fj5aVp6HDMHlxvaAJ5R2aShvm72QMTBTjiTKN-4AJT_g5hogQ48jmYSJ82uFl7NpVEHoANH3vq3C97ygs_ny2X98txMVXaFZjKezh0aQV61UBNP91auQOsEaYlEsRZidfGcaBpN0CXqoB3MSCkLtv8Bl6e86Ti-nEXiCRIR3zc4O0ilf29ULUroyp7X3S7nalF41g8-ugUbNsn_UHKuTCrsRxsOYUagiCN1Vr6lspIKMK0LsJIOBC73bPoZMk4GTR1VugBJYGE4cBLdnG/p.png?fv_content=true&size_mode=5",
-			"name": "Sites against humanity",
-			"projectName": "Sites against humanity",
+			"imgUrl": "./img/projects/sites-against-humanity.png",
+			"name": "Sites Against Humanity",
+			"projectName": "Sites Against Humanity",
 			"description": "Saw an awful site? Shoot it into the sun.",
 			"languages": ["Hungarian"],
 			"projectUrl": "https://napbalonem.net"
-		},
-		{
-			"imgUrl": "https://yearcompass.com/assets/img/insta_landing/2.jpg",
-			"name": "YearCompass",
-			"projectName": "YearCompass",
-			"description": "YearCompass is a booklet that helps close your year and plan the next one. New Year's resolutions don't work; planning your year does.",
-			"languages": ["English (US)","Hungarian","Romanian", "Polish", "Indonesian", "Vietnamese"],
-			"projectUrl": "https://yearcompass.com"
 		}
 	],
 	"media": [
