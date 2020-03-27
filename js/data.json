@@ -28,35 +28,74 @@
 			"imgUrl": "./img/projects/sites-against-humanity.png",
 			"name": "Sites Against Humanity",
 			"projectName": "Sites Against Humanity",
-			"description": "Saw an awful site? Shoot it into the sun.",
+			"description": "Saw an awful site? Shoot it into the sun!",
 			"languages": ["Hungarian"],
 			"projectUrl": "https://napbalonem.net"
-		}
+		},
+        {
+			"imgUrl": "./img/projects/neves.jpeg",
+			"name": "NEVES",
+			"projectName": "NEVES",
+			"description": "The NEVES patient safety reporting system helps healthcare organisations improve patient safety by making incident data collection and analysis easy and visually appealing.",
+			"languages": ["Hungarian", "English"],
+			"projectUrl": "https://napbalonem.net"
+		},
+        {
+          "imgUrl": "./img/projects/best-practices.png",
+          "name": "Healthcare best practices",
+          "projectName": "Healthcare best practices",
+          "description": "Collecting best practices that are applicable to improve patient safety within hospitals.",
+          "languages": ["Hungarian"],
+          "projectUrl": "https://jogyakorlatok.betegbiztonsag.info"
+        }
 	],
 	"media": [
+        {
+          "imgUrl": "./img/media/2020-03-dreamjobs-interview.png",
+          "name": "Talking about remote work during the COVID-19 outbreak (2020-03)",
+          "description": "A live session with DreamJobs talking about HR and remote work based on the experience with CodeBerry",
+          "languages": ["HU"],
+          "projectName": "CodeBerry",
+          "projectUrl": "https://codeberryschool.com",
+          "postUrl": "https://www.youtube.com/watch?v=Kw3lzdhqNsw",
+          "mediaName": "BaConsult",
+          "mediaUrl": "https://www.baconsult.hu/"
+        },
+        {
+          "imgUrl": "./img/media/2019-11-baconsult-facebook-live.png",
+          "name": "A live session with Peter Balogh, CEO of BaConsult (2019-11)",
+          "description": "Joining for a live session with Peter Balogh, talking about early startup life.",
+          "languages": ["HU"],
+          "projectName": "CodeBerry",
+          "projectUrl": "https://codeberryschool.com",
+          "postUrl": "https://www.youtube.com/watch?v=Kw3lzdhqNsw",
+          "mediaName": "DreamJobs",
+          "mediaUrl": "https://dreamjo.bs"
+        },
 		{
-			"imgUrl": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbespr%2Ffiles%2F2018%2F02%2FForbes-Crypto-Cover-Binance-1200x1559.jpg",
-			"name": "Representing YearCompass in Forbes magazine",
-			"description": "An article about the YearCompass movement in Forbes magazine, 2019 January",
-			"languages": ["Hungarian"],
-			"projectName": "YearCompass",
-			"projectUrl": "https://yearcompass.com",
-			"postUrl": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/",
-			"mediaName": "Forbes",
-			"mediaUrl": "https://forbes.hu/"
-		}
-	],
-	"videos": [
-		{
-			"name": "EU Top 50 pitch 2018",
-			"description": "Pitching CodeBerry in the EU Parliament participating in the EU Top 50 competition in 2018",
-			"languages": ["EN"],
-			"videoUrl": "https://www.youtube.com/watch?v=8FIztJWTvZs&feature=youtu.be",
-			"projectName": "CodeBerry",
-			"projectUrl": "https://codeberryschool.com",
-			"mediaName": "YouTube",
-			"mediaUrl": "https://www.youtube.com"
+          "imgUrl": "./img/media/2019-01-yearcompass-forbes.jpg",
+          "name": "YearCompass in Forbes (2019-01)",
+          "description": "An article about the YearCompass movement in the Hungarian Forbes magazine in 2019",
+          "languages": ["HU"],
+          "projectName": "YearCompass",
+          "projectUrl": "https://yearcompass.com",
+          "postUrl": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/",
+          "mediaName": "Forbes",
+          "mediaUrl": "https://forbes.hu/"
 		},
+        {
+          "imgUrl": "./img/media/2018-11-codeberry-eu-top50.jpg",
+          "name": "CodeBerry EU Top 50 pitch (2018-11)",
+          "description": "Pitching CodeBerry in the EU Parliament participating in the EU Top 50 competition in 2018",
+          "languages": ["EN"],
+          "projectName": "CodeBerry",
+          "projectUrl": "https://codeberryschool.com",
+          "postUrl": "https://www.youtube.com/watch?v=8FIztJWTvZs",
+          "mediaName": "EU Top 50",
+          "mediaUrl": "https://www.eutop50.eu/#mission"
+        }
+    ],
+	"videos": [
 		{
 			"name": "Interview about year-planning 2017 December (Kossuth rádió, Hungary)",
 			"description": "Talking about the importance of year-planning in 2017 December",
