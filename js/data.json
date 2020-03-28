@@ -62,6 +62,17 @@
           "mediaUrl": "https://www.baconsult.hu/"
         },
         {
+          "imgUrl": "./img/media/2019-12-yearcompass-kossuth-radio.jpg",
+          "name": "Talking about year planning and yearly reflection in Kossuth Rádió (2019-12)",
+          "description": "Participating as a guest in the year closing broadcast in Kossuth Rádió, talking about YearCompass [from 18:20].",
+          "languages": ["HU"],
+          "projectName": "YearCompass",
+          "projectUrl": "https://yearcompass.com",
+          "postUrl": "https://nava.hu/id/3601508/",
+          "mediaName": "Kossuth Rádió",
+          "mediaUrl": "https://mediaklikk.hu/kossuth/"
+        },
+        {
           "imgUrl": "./img/media/2019-11-baconsult-facebook-live.png",
           "name": "A live session with Peter Balogh, CEO of BaConsult (2019-11)",
           "description": "Joining for a live session with Peter Balogh, talking about early startup life.",
@@ -96,35 +107,5 @@
         }
     ],
 	"videos": [
-		{
-			"name": "Interview about year-planning 2017 December (Kossuth rádió, Hungary)",
-			"description": "Talking about the importance of year-planning in 2017 December",
-			"languages": ["HU"],
-			"videoUrl": "https://soundcloud.com/yearcompass/kossuth-radio-interju-2017-12-28",
-			"projectName": "YearCompass",
-			"projectUrl": "https://yearcompass.com",
-			"mediaName": "Kossuth rádió",
-			"mediaUrl": "https://mediaklikk.hu/kossuth/"
-		},
-		{
-			"name": "Interview with Békéssy László / YearCompass",
-			"description": "Talking about the importance of year-planning in 2017 December",
-			"languages": ["HU"],
-			"videoUrl": "https://soundcloud.com/yearcompass/bukarest-radio-interju-2015-01-14",
-			"projectName": "YearCompass",
-			"projectUrl": "https://yearcompass.com",
-			"mediaName": "Bukarest Rádió",
-			"mediaUrl": "https://mediaklikk.hu"
-		},
-		{
-			"name": "Interview with P. Tóth András / YearCompass",
-			"description": "Talking about the importance of year-planning in 2017 December",
-			"languages": ["HU"],
-			"videoUrl": "https://soundcloud.com/yearcompass/erdfm-interview-about-yearcompass-hungarian",
-			"projectName": "YearCompass",
-			"projectUrl": "https://yearcompass.com",
-			"mediaName": "Érd.FM",
-			"mediaUrl": "http://xn--rd-9ia.fm/"
-		}
 	]
 }
