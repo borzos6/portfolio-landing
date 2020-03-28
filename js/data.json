@@ -25,12 +25,12 @@
 			"projectUrl": "http://lathatatlanegyetem.hu"
 		},
 		{
-			"imgUrl": "./img/projects/sites-against-humanity.png",
-			"name": "Sites Against Humanity",
-			"projectName": "Sites Against Humanity",
-			"description": "Saw an awful site? Shoot it into the sun!",
-			"languages": ["Hungarian"],
-			"projectUrl": "https://napbalonem.net"
+			"imgUrl": "./img/projects/danubechance2p0.jpg",
+			"name": "Interreg - DanubeChance2.0",
+			"projectName": "Interreg - DanubeChance2.0 ",
+			"description": "Developing curriculum and participating as a mentor in the DanubeChance 2.0 program: Embracing failure to facilitate second-chance entrepreneurship in the Danube region",
+			"languages": ["Hungarian", "English"],
+			"projectUrl": "http://www.interreg-danube.eu/approved-projects/danubechance2-0"
 		},
         {
 			"imgUrl": "./img/projects/neves.jpeg",
@@ -47,11 +47,19 @@
           "description": "Collecting best practices that are applicable to improve patient safety within hospitals.",
           "languages": ["Hungarian"],
           "projectUrl": "https://jogyakorlatok.betegbiztonsag.info"
+        },
+        {
+          "imgUrl": "./img/projects/sites-against-humanity.png",
+          "name": "Sites Against Humanity",
+          "projectName": "Sites Against Humanity",
+          "description": "Saw an awful site? Shoot it into the sun!",
+          "languages": ["Hungarian"],
+          "projectUrl": "https://napbalonem.net"
         }
-	],
+    ],
 	"media": [
         {
-          "imgUrl": "./img/media/2020-03-dreamjobs-interview.png",
+          "imgUrl": "./img/media/2020-03-codeberry-dreamjobs-live.png",
           "name": "Talking about remote work during the COVID-19 outbreak (2020-03)",
           "description": "A live session with DreamJobs talking about HR and remote work based on the experience with CodeBerry",
           "languages": ["HU"],
@@ -73,7 +81,7 @@
           "mediaUrl": "https://mediaklikk.hu/kossuth/"
         },
         {
-          "imgUrl": "./img/media/2019-11-baconsult-facebook-live.png",
+          "imgUrl": "./img/media/2019-11-codeberry-baconsult-live.png",
           "name": "A live session with Peter Balogh, CEO of BaConsult (2019-11)",
           "description": "Joining for a live session with Peter Balogh, talking about early startup life.",
           "languages": ["HU"],
@@ -94,6 +102,17 @@
           "mediaName": "Forbes",
           "mediaUrl": "https://forbes.hu/"
 		},
+        {
+          "imgUrl": "./img/media/2018-12-yearcompass-petofi-tv.jpg",
+          "name": "YearCompass in Hungarian TV M2-Petőfi (2018-12)",
+          "description": "Introducing the YearCompass booklet to a wider audience in the Hungarian National Television.",
+          "languages": ["HU"],
+          "projectName": "YearCompass",
+          "projectUrl": "https://yearcompass.com",
+          "postUrl": "https://nava.hu/id/3445133/",
+          "mediaName": "M2 Petőfi TV",
+          "mediaUrl": "https://mediaklikk.hu/m2/"
+        },
         {
           "imgUrl": "./img/media/2018-11-codeberry-eu-top50.jpg",
           "name": "CodeBerry EU Top 50 pitch (2018-11)",
