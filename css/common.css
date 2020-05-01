@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-	color: #64dcb0 !important;
+	color: #647ddd !important;
 }
 
 .wrapper--md {
@@ -30,7 +30,7 @@ a:hover {
 .wrapper {
 	max-width: 1440px;
 	margin: auto;
-	padding: 40px 150px;
+	padding: 30px 60px;
 	box-sizing: border-box;
 }
 
@@ -92,12 +92,15 @@ header {
 	text-align: right;
 	background-color: white;
 	z-index: 8000;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 header a {
 	margin: 0 0 0 40px;
 	font-size: 12px;
-	color: #64dcb0;
+	color: #082594;
 	text-transform: uppercase;
 	font-weight: 800;
 	letter-spacing: 1px;
@@ -107,7 +110,7 @@ header a {
 	position: fixed;
 	left: 0;
 	width: 150px;
-	padding: 150px 0 0;
+	padding: 100px 0 0;
 	box-sizing: border-box;
 	height: 100%;
 	top: 0;
@@ -150,12 +153,9 @@ header a {
 .content {}
 
 .content section {
-	margin: 100px auto;
+	margin: 30px auto;
 }
 
-.content section#masonary {
-	margin: 0;
-}
 
 footer {
 	background: white;
@@ -165,13 +165,14 @@ footer {
 .footer__content {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	/* height: 100vh; */
 	align-items: center;
-	padding: 140px 0 0;
+	padding: 50px;
+	/* padding: 100px 0 0; */
 }
 
 .footer__content h1 {
-	color: #333333;
+	color: #647ddd;
 	font-size: 46px;
 	margin: 0;
 }
@@ -186,12 +187,12 @@ footer {
 
 .external a {
 	font-size: 30px;
-	color: #333333;
+	color: #082693;
 	margin: 0 20px;
 }
 
 .mail a {
-	color: #64dcb0;
+	color: #082594;
 }
 
 .yellow {

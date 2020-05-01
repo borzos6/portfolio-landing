@@ -2,23 +2,24 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title>Laszlo Bekessy | Portfolio</title>
-		<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-		<link rel="manifest" href="/favicon/manifest.json">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>László Békéssy | Portfolio</title>
+		<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="favicon/manifest.json">
 		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 
 		<link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/all.min.css">
@@ -26,12 +27,20 @@
 		<link rel="stylesheet" href="css/common.css">
 		<link rel="stylesheet" href="css/masonary.css">
 		<link rel="stylesheet" href="css/index.css">
-		<!-- <link rel="stylesheet" href="css/sal.css"> -->
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
 		<script src="js/sal.js" charset="utf-8"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141698457-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
+		  gtag('config', 'UA-141698457-2');
+		</script>
+		<script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
 	</head>
 
 	<body>
@@ -39,40 +48,29 @@
 		<header class="wrapper"  data-sal="slide-down" data-sal-delay="200" data-sal-duration="500">
 			<a href="#projects">Projects</a>
 			<a href="#medias">Media</a>
-			<a href="#videos">Videos</a>
 		</header>
 
-		<div class="contact">
-			<div class="socials" data-sal="fade" data-sal-delay="200" data-sal-duration="500">
-				<a href="https://www.linkedin.com/in/laszlo-bekessy/"><i class="fab fa-linkedin"></i></a>
-				<!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
-				<a href="https://www.facebook.com/bekessy.laszlo"><i class="fab fa-facebook"></i></a>
-				<a href="mailto:laszlo.bekessy@codeberryschool.com"><i class="fa fa-envelope"></i></a>
-				<span class="email">Find me here</span>
-			</div>
-		</div>
-
 		<div class="content">
-
 			<section id="hero" class="hero wrapper">
 				<div class="flex row m-wrap">
-					<div class="flex-1" data-sal="slide-right" data-sal-delay="200" data-sal-duration="1500">
+					<div class="flex-1 hero-left" data-sal="slide-right" data-sal-delay="200" data-sal-duration="1500">
 						<div class="hero__title">Hello.  My name is <br /><b class="yellow name">László Békéssy</b></div>
-					</div>
-					<div class="flex-1" data-sal="slide-up" data-sal-delay="500" data-sal-duration="2000">
-						<div class="hero__image">
-							<img src="./img/profile2.jpg" alt="Profile picture">
+						<div class="hero-contact">
+							<a class="hero-icon" target="_blank" href="https://www.linkedin.com/in/laszlo-bekessy/"><i class="fab fa-linkedin"></i></a>
+							<a class="hero-icon" target="_blank" href="https://www.facebook.com/bekessy.laszlo"><i class="fab fa-facebook"></i></a>
+							<a class="hero-icon" target="_blank" href="mailto:laszlo.bekessy@codeberryschool.com"><i class="fa fa-envelope"></i></a>
 						</div>
 					</div>
+					<div class="flex-1 hero-right" data-sal="slide-up" data-sal-delay="500" data-sal-duration="2000">
+						<div class="hero__image"></div>
+					</div>
 				</div>
-				<a href="javascript:void(0)" class="see-more" data-sal="fade" data-sal-delay="1000" data-sal-duration="1000"><i class="fa fa-angle-down"></i></a>
 			</section>
 
 			<section id="masonary" class="masonary wrapper">
 				<div class="cards">
 					<div id="projects" class="cards-group">
 						<h1 data-sal="fade" data-sal-delay="200" data-sal-duration="2000">
-							<!-- <div class="icon"><img src="/img/svg/brain.svg" alt=""></div> -->
 							Projects
 						</h1>
 						<div class="grid-layout projects"></div>
@@ -80,18 +78,9 @@
 
 					<div id="medias" class="cards-group">
 						<h1 data-sal="fade" data-sal-delay="200" data-sal-duration="2000">
-							<!-- <div class="icon"><img src="/img/svg/chat_1.svg" alt=""></div> -->
-							Media Coverage
+							Media
 						</h1>
 						<div class="grid-layout medias"></div>
-					</div>
-
-					<div id="videos" class="cards-group">
-						<h1 data-sal="fade" data-sal-delay="200" data-sal-duration="2000">
-							<!-- <div class="icon"><img src="/img/svg/musical_note.svg" alt=""></div> -->
-							Videos & Podcasts
-						</h1>
-						<div class="videos"></div>
 					</div>
 				</div>
 			</section>
@@ -103,14 +92,10 @@
 
 					<h1 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Find me here</h1>
 					<div class="external" data-sal="slide-up" data-sal-delay="600" data-sal-duration="1000">
-						<a href="https://www.linkedin.com/in/laszlo-bekessy/"><i class="fab fa-linkedin"></i></a>
-						<a href="https://www.facebook.com/bekessy.laszlo"><i class="fab fa-facebook"></i></a>
-						<a href="mailto:laszlo.bekessy@codeberryschool.com"><i class="fa fa-envelope"></i></a>
+						<a target="_blank" href="https://www.linkedin.com/in/laszlo-bekessy/"><i class="fab fa-linkedin"></i></a>
+						<a target="_blank" href="https://www.facebook.com/bekessy.laszlo"><i class="fab fa-facebook"></i></a>
+						<a target="_blank" href="mailto:laszlo.bekessy@codeberryschool.com"><i class="fa fa-envelope"></i></a>
 					</div>
-
-					<!-- <div class="mail" data-sal="slide-up" data-sal-delay="1000" data-sal-duration="1000">
-						<a href="mailto:laszlo.bekessy@codeberryschool.com">laszlo.bekessy@codeberryschool.com</a>
-					</div> -->
 
 				</div>
 			</div>
