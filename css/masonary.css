@@ -140,7 +140,7 @@
 	background: #ffffff;
 	padding: 10px 20px;
 	z-index: 3000;
-	min-width: 50%;
+  min-width: 200px;
 	word-break: break-word;
 	line-height: 20px;
 	text-transform: none;
