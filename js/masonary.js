@@ -17,7 +17,6 @@ $.getJSON("./js/data.json", function(data) {
       $lang.on('mouseenter', function() {
 				$(this).addClass('hovered');
 				var visiblity = $(this).closest(".card__top").find(".lang__list").css('display');
-				console.log(visiblity);
 				if (visiblity === 'none') $(this).closest(".card__top").find(".lang__list").slideToggle();
 				if (visiblity === 'none') $(this).closest(".card__top").find(".lang span").fadeIn();
 			});
@@ -72,17 +71,10 @@ function appendListItems(array, type) {
 					${val.embedCode}
 				</div>`
 			} else {
-				let languages = '';
-				$.each(val.languages, function(key, val) {
-					languages += `<a target="_blank" href="${val.link}" class="item">${val.name}</a>`;
-				});
 				list += `
 					<div class="grid-item span-${val.layoutOrder} card" style="background-image: url(${val.imgUrl})" data-sal="fade" data-sal-duration="2000" data-sal-easing="ease-out-back">
 						<div class="card__top">
-							<div class="lang"><span>Available in:</span><i class="fa fa-globe"></i></div>
-							<div class="lang__list">
-								${languages}
-							</div>
+							<div class="fixed-lang">${val.language}</div>
 						</div>
 						<div class="card__bottom">
 							<a target="_blank" href="${val.postUrl}" class="title">${val.name}</a>
