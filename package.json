@@ -4,7 +4,7 @@
   "description": "Portfolio page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server ./ -p 1337"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sibrahimpa1/portfolio-landing/issues"
   },
-  "homepage": "https://github.com/sibrahimpa1/portfolio-landing#readme"
+  "homepage": "https://github.com/sibrahimpa1/portfolio-landing#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
 }
