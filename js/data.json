@@ -1,85 +1,45 @@
 {
-	"projects": [{
+	"projects": [
+        {
 			"imgUrl": "./img/projects/codeberry.jpeg",
 			"name": "CodeBerry",
-			"projectName": "CodeBerry2222",
+			"projectName": "CodeBerry School",
 			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
 			"languages": [{
 					"name": "English (US)",
-					"link": "url"
+					"link": "https://codeberryschool.com/en"
 				},
 				{
 					"name": "Hungarian",
-					"link": "url"
+					"link": "https://codeberryschool.com/hu"
 				},
 				{
 					"name": "Romanian",
-					"link": "url"
+					"link": "https://codeberryschool.com/ro"
 				},
 				{
 					"name": "Polish",
-					"link": "url"
+					"link": "https://codeberryschool.com/pl"
 				},
 				{
 					"name": "Indonesian",
-					"link": "url"
+					"link": "https://codeberryschool.com/id"
 				},
 				{
 					"name": "Vietnamese",
-					"link": "url"
+					"link": "https://codeberryschool.com/vn"
 				},
 				{
 					"name": "Portuguese (BR)",
-					"link": "url"
+					"link": "https://codeberryschool.com/ptbr"
 				},
 				{
 					"name": "Spanish (MX)",
-					"link": "url"
+					"link": "https://codeberryschool.com/esmx"
 				}
 			],
 			"projectUrl": "https://codeberryschool.com",
-			"layoutOrder": 3
-		},
-		{
-			"imgUrl": "./img/projects/yearcompass.jpg",
-			"name": "YearCompass",
-			"projectName": "YearCompass",
-			"description": "YearCompass is a booklet that helps close your year and plan the next one. New Year's resolutions don't work; planning your year does.",
-			"languages": [{
-					"name": "English (US)",
-					"link": "url"
-				},
-				{
-					"name": "Hungarian",
-					"link": "url"
-				},
-				{
-					"name": "中文 (汉语)",
-					"link": "url"
-				},
-				{
-					"name": "日本語",
-					"link": "url"
-				},
-				{
-					"name": "Русский",
-					"link": "url"
-				},
-				{
-					"name": "עברית",
-					"link": "url"
-				},
-				{
-					"name": "العربية",
-					"link": "url"
-				},
-				{
-					"name": "and 40+ other languages",
-					"link": "url"
-				}
-			],
-			"projectUrl": "https://yearcompass.com",
-			"layoutOrder": 1
+			"layoutOrder": 2
 		},
 		{
 			"imgUrl": "./img/projects/invisible-university.jpg",
@@ -88,10 +48,10 @@
 			"description": "Invisible University helps university students and young adults to learn life skills such as time management, personal finances, mindfulness in peer groups.",
 			"languages": [{
 				"name": "Hungarian",
-				"link": "url"
+				"link": "http://lathatatlanegyetem.hu"
 			}],
 			"projectUrl": "http://lathatatlanegyetem.hu",
-			"layoutOrder": 2
+			"layoutOrder": 1
 		},
 		{
 			"imgUrl": "./img/projects/danubechance2p0.jpg",
@@ -100,16 +60,57 @@
 			"description": "Developing curriculum and participating as a mentor in the DanubeChance 2.0 program: Embracing failure to facilitate second-chance entrepreneurship in the Danube region",
 			"languages": [{
 					"name": "Hungarian",
-					"link": "url"
+					"link": "http://www.interreg-danube.eu/approved-projects/danubechance2-0"
 				},
 				{
 					"name": "English",
-					"link": "url"
+					"link": "http://www.interreg-danube.eu/approved-projects/danubechance2-0"
 				}
 			],
 			"projectUrl": "http://www.interreg-danube.eu/approved-projects/danubechance2-0",
 			"layoutOrder": 1
 		},
+        {
+            "imgUrl": "./img/projects/yearcompass.jpg",
+            "name": "YearCompass",
+            "projectName": "YearCompass",
+            "description": "YearCompass is a booklet that helps close your year and plan the next one. New Year's resolutions don't work; planning your year does.",
+            "languages": [{
+                "name": "English (US)",
+                "link": "https://yearcompass.com/en"
+            },
+                {
+                    "name": "Hungarian",
+                    "link": "https://yearcompass.com/hu"
+                },
+                {
+                    "name": "中文 (汉语)",
+                    "link": "https://yearcompass.com/cn"
+                },
+                {
+                    "name": "日本語",
+                    "link": "https://yearcompass.com/jp"
+                },
+                {
+                    "name": "Русский",
+                    "link": "https://yearcompass.com/ru"
+                },
+                {
+                    "name": "עברית",
+                    "link": "https://yearcompass.com/il"
+                },
+                {
+                    "name": "العربية",
+                    "link": "https://yearcompass.com/ar"
+                },
+                {
+                    "name": "and 40+ other languages",
+                    "link": "https://yearcompass.com/"
+                }
+            ],
+            "projectUrl": "https://yearcompass.com",
+            "layoutOrder": 2
+        },
 		{
 			"imgUrl": "./img/projects/neves.jpeg",
 			"name": "NEVES",
@@ -117,14 +118,14 @@
 			"description": "The NEVES patient safety reporting system helps healthcare organisations improve patient safety by making incident data collection and analysis easy and visually appealing.",
 			"languages": [{
 					"name": "Hungarian",
-					"link": "url"
+					"link": "https://neves.nevesforum.hu"
 				},
 				{
 					"name": "English",
-					"link": "url"
+					"link": "https://neves.nevesforum.hu"
 				}
 			],
-			"projectUrl": "https://napbalonem.net",
+			"projectUrl": "https://neves.nevesforum.hu",
 			"layoutOrder": 1
 		},
 		{
@@ -134,11 +135,12 @@
 			"description": "Collecting best practices that are applicable to improve patient safety within hospitals.",
 			"languages": [{
 				"name": "Hungarian",
-				"link": "url"
+				"link": "https://jogyakorlatok.betegbiztonsag.info"
 			}],
 			"projectUrl": "https://jogyakorlatok.betegbiztonsag.info",
 			"layoutOrder": 1
 		},
+
 		{
 			"imgUrl": "./img/projects/sites-against-humanity.png",
 			"name": "Sites Against Humanity",
@@ -146,7 +148,7 @@
 			"description": "Saw an awful site? Shoot it into the sun!",
 			"languages": [{
 				"name": "Hungarian",
-				"link": "url"
+				"link": "https://napbalonem.net"
 			}],
 			"projectUrl": "https://napbalonem.net",
 			"layoutOrder": 1
@@ -158,14 +160,14 @@
 			"description": "A live session with DreamJobs talking about HR and remote work based on the experience with CodeBerry",
 			"languages": [{
 				"name": "HU",
-				"link": "url"
+				"link": "https://www.youtube.com/watch?v=Kw3lzdhqNsw"
 			}],
 			"projectName": "CodeBerry",
 			"projectUrl": "https://codeberryschool.com",
 			"postUrl": "https://www.youtube.com/watch?v=Kw3lzdhqNsw",
 			"mediaName": "BaConsult",
 			"mediaUrl": "https://www.baconsult.hu/",
-			"layoutOrder": 2
+			"layoutOrder": 1
 		},
 		{
 			"imgUrl": "./img/media/2019-12-yearcompass-kossuth-radio.jpg",
@@ -173,7 +175,7 @@
 			"description": "Participating as a guest in the year closing broadcast in Kossuth Rádió, talking about YearCompass [from 18:20].",
 			"languages": [{
 				"name": "HU",
-				"link": "url"
+				"link": "https://nava.hu/id/3601508/"
 			}],
 			"projectName": "YearCompass",
 			"projectUrl": "https://yearcompass.com",
@@ -188,14 +190,14 @@
 			"description": "Joining for a live session with Peter Balogh, talking about early startup life.",
 			"languages": [{
 				"name": "HU",
-				"link": "url"
+				"link": "https://www.youtube.com/watch?v=Kw3lzdhqNsw"
 			}],
 			"projectName": "CodeBerry",
 			"projectUrl": "https://codeberryschool.com",
 			"postUrl": "https://www.youtube.com/watch?v=Kw3lzdhqNsw",
 			"mediaName": "DreamJobs",
 			"mediaUrl": "https://dreamjo.bs",
-			"layoutOrder": 3
+			"layoutOrder": 1
 		},
 		{
 			"imgUrl": "./img/media/2019-01-yearcompass-forbes.jpg",
@@ -203,7 +205,7 @@
 			"description": "An article about the YearCompass movement in the Hungarian Forbes magazine in 2019",
 			"languages": [{
 				"name": "HU",
-				"link": "url"
+				"link": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/"
 			}],
 			"projectName": "YearCompass",
 			"projectUrl": "https://yearcompass.com",
@@ -218,7 +220,7 @@
 			"description": "Introducing the YearCompass booklet to a wider audience in the Hungarian National Television.",
 			"languages": [{
 				"name": "HU",
-				"link": "url"
+				"link": "https://nava.hu/id/3445133/"
 			}],
 			"projectName": "YearCompass",
 			"projectUrl": "https://yearcompass.com",
@@ -233,7 +235,7 @@
 			"description": "Pitching CodeBerry in the EU Parliament participating in the EU Top 50 competition in 2018",
 			"languages": [{
 				"name": "EN",
-				"link": "url"
+				"link": "https://www.youtube.com/watch?v=8FIztJWTvZs"
 			}],
 			"projectName": "CodeBerry",
 			"projectUrl": "https://codeberryschool.com",

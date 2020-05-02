@@ -5,12 +5,11 @@ window.onload = function() {
     var content_scroll_pos = $(window).scrollTop();
     var percentage_value = content_scroll_pos * 100 / content_height;
 
-    if(percentage_value === 70)
-    {
-      console.dir("the scroll is about 80% down.");
+    var percentage = 70;
+    if(percentage_value === percentage) {
 			$(".contact div").hide();
     }
-		else if(percentage_value < 70){
+		else if(percentage_value < percentage) {
 			$(".contact div").show();
 		}
 	});
