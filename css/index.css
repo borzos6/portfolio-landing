@@ -1,11 +1,15 @@
 .hero {
-	margin: 0 0 200px;
+	margin: 90px auto 0 !important;
 }
 
 .hero__image {
 	height: 520px;
 	position: relative;
 	overflow: hidden;
+	background-image: url("../img/profile2.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .hero__image::after {
@@ -29,14 +33,15 @@
 .hero__image img {
 	width: 100%;
 	object-fit: cover;
+	height: 100%;
 }
 
 .hero .see-more {
-	color: #64dcb0;
+	color: #082594;
 	text-align: center;
 	display: flex;
 	font-size: 45px;
-	margin: 50px 0 0;
+	margin: 70px 0 0;
 	align-items: center;
 	justify-content: center;
 }
@@ -49,10 +54,22 @@
 	width: 50px;
 	height: 50px;
 }
+.hero-contact{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 30px;
+	margin: 20px 0;
+}
+.hero-icon{
+	font-size: 24px;
+	color: #082693;
+	padding: 0 10px;
+}
+
 
 @-webkit-keyframes pulse {
 	0% {
-		-webkit-box-shadow: 0 0 0 0 rgb(100, 220, 176);
+		-webkit-box-shadow: 0 0 0 0 rgb(100, 126, 220);
 	}
 
 	70% {
@@ -65,8 +82,8 @@
 }
 @keyframes pulse {
 	0% {
-		-moz-box-shadow: 0 0 0 0 rgb(100, 220, 176);
-		box-shadow: 0 0 0 0 rgb(100, 220, 176);
+		-moz-box-shadow: 0 0 0 0 rgb(100, 126, 220);
+		box-shadow: 0 0 0 0 rgb(100, 126, 220);
 	}
 
 	70% {
@@ -79,7 +96,19 @@
 		box-shadow: 0 0 0 0 rgba(72, 169, 66, 0);
 	}
 }
-
+section.wrapper{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.hero-left{
+	display: flex;
+	flex-direction: column;
+	margin-right: 50px;
+	justify-content: center;
+}
+.hero-right{
+	margin-left: 50px;
+}
 .hero__title {
 	font-size: 26px;
 	z-index: 30;
@@ -87,7 +116,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 100%;
 	padding: 0 30px 0 0;
 	text-align: right;
 	font-family: "Source Sans Pro";
@@ -96,14 +124,30 @@
 }
 
 .hero__title .name {
-	font-size: 76px;
+	font-size: 66px;
 }
-
+@media only screen and (max-width: 1100px) {
+	.hero-right, .hero-left{
+		margin: 0;
+	}
+	.hero__image img{
+    height: auto;
+	}
+}
 @media only screen and (max-width: 768px) {
 	.hero__title {
-		font-size: 68px;
+    font-size: 36px;
+    text-align: left;
 	}
-
+	.hero__image{
+		height: 450px;
+	}
+	.hero-contact{
+		justify-content: flex-start;
+	}
+	.hero__title .name {
+    font-size: 51px;
+	}
 	.hero__image {
 		margin: 30px 0;
 	}

@@ -43,7 +43,7 @@
 .cards {}
 
 .cards-group {
-	margin: 0 0 200px;
+	margin: 0 0 100px;
 }
 
 .cards-group#videos {
@@ -51,10 +51,11 @@
 }
 
 .cards h1 {
-	font-size: 82px;
+	font-size: 64px;
 	color: #647ddc;
 	margin: 0 0 50px;
 	padding: 0 0 20px;
+	text-align: center;
 	font-family: "Source Sans Pro", "Roboto";
 }
 
@@ -84,7 +85,7 @@
 	width: 35px;
 	font-size: 16px;
 	height: 35px;
-	background: #64dcb0;
+	background: #082594;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -102,7 +103,7 @@
 	font-size: 14px;
 	height: 30px;
 	position: absolute;
-	background: #64dcb0;
+	background: #082594;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -139,7 +140,7 @@
 	background: #ffffff;
 	padding: 10px 20px;
 	z-index: 3000;
-	min-width: 50%;
+  min-width: 200px;
 	word-break: break-word;
 	line-height: 20px;
 	text-transform: none;
@@ -164,6 +165,15 @@
 	padding: 4px 0;
 	font-size: 13px;
 	color: #333333;
+	display: block;
+}
+
+.card-embed{
+	padding: 0;
+}
+.card-embed iframe{
+	height: 100% !important;
+	width: 100% !important;
 }
 
 .card .title {
@@ -263,7 +273,7 @@
 	bottom: 0;
 	right: 0;
 	background: rgb(1,10,52);
-	background: linear-gradient(0deg, rgb(17, 27, 68) 0%, rgba(13, 115, 138, 0.37) 100%);
+	background: linear-gradient(0deg, rgb(17, 27, 68) 0%, rgba(13, 115, 138, 0.37) 90%);
 	z-index: 10;
 	transition: all .3s linear;
 }
@@ -278,7 +288,7 @@
 	bottom: 0;
 	right: 0;
 	background: rgb(1,10,52);
-	background: linear-gradient(0deg, rgb(17, 27, 68) 0%, rgba(13, 115, 138, 0.37) 100%);
+	background: linear-gradient(0deg, rgb(17, 27, 68) 0%, rgba(13, 115, 138, 0.37) 90%);
 	z-index: 10;
 }
 
@@ -292,7 +302,7 @@
 	bottom: 0;
 	right: 0;
 	background: rgb(3,42,51);
-	background: linear-gradient(0deg, rgba(3,42,51,0.8841911764705882) 0%, rgba(1,211,254,0) 100%);
+	background: linear-gradient(0deg, rgba(3,42,51,0.8841911764705882) 0%, rgba(1,211,254,0) 90%);
 }
 
 .projects .project-name {
@@ -303,8 +313,13 @@
 .medias .project-name {
 	background: #647ddc;
 	margin: 0 0 0 10px;
+	transition: all .4s linear;
 }
-
+.medias .media-name:hover,
+.medias .project-name:hover{
+	background: #4357a0;
+	color: white !important;
+}
 .videos .project-name {
 	background: #333333;
 	padding: 0 10px;
@@ -377,7 +392,7 @@
 	display: block;
 	margin: 10px 0 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1100px) {
 	.grid-layout {
 		grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
 	}
@@ -385,6 +400,6 @@
 	.span-2,
 	.span-3 {
 		grid-column-end: span 1;
-		grid-row-end: span 2;
+		grid-row-end: span 1;
 	}
 }
