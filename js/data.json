@@ -2,13 +2,10 @@
 	"projects": [
         {
 			"imgUrl": "./img/projects/codeberry.jpeg",
-			"name": "CodeBerry",
+			"name": "Founder & CEO of CodeBerry School",
 			"projectName": "CodeBerry School",
 			"description": "CodeBerry is a fully localized & gamified coding school for non-English speakers who want to change their careers.",
-			"languages": [{
-					"name": "English (US)",
-					"link": "https://codeberryschool.com/en"
-				},
+			"languages": [
 				{
 					"name": "Hungarian",
 					"link": "https://codeberryschool.com/hu"
@@ -36,29 +33,36 @@
 				{
 					"name": "Spanish (MX)",
 					"link": "https://codeberryschool.com/esmx"
-				}
-			],
+				},
+                {
+                    "name": "English (US)",
+                    "link": "https://codeberryschool.com/en"
+                }
+            ],
 			"projectUrl": "https://codeberryschool.com",
 			"layoutOrder": 2
 		},
 		{
 			"imgUrl": "./img/projects/invisible-university.jpg",
-			"name": "Invisible University International",
+			"name": "Founder of Invisible University International",
 			"projectName": "Invisible University International",
 			"description": "Invisible University helps university students and young adults to learn life skills such as time management, personal finances, mindfulness in peer groups.",
-			"languages": [{
+			"languages": [
+                {
 				"name": "Hungarian",
 				"link": "http://lathatatlanegyetem.hu"
-			}],
+			    }
+            ],
 			"projectUrl": "http://lathatatlanegyetem.hu",
 			"layoutOrder": 1
 		},
 		{
 			"imgUrl": "./img/projects/danubechance2p0.jpg",
-			"name": "Interreg - DanubeChance2.0",
-			"projectName": "Interreg - DanubeChance2.0 ",
-			"description": "Developing curriculum and participating as a mentor in the DanubeChance 2.0 program: Embracing failure to facilitate second-chance entrepreneurship in the Danube region",
-			"languages": [{
+			"name": "Mentor in Interreg - DanubeChance2.0 Program",
+			"projectName": "Interreg - DanubeChance2.0 Program",
+			"description": "Developing curriculum and participating as a mentor in the DanubeChance 2.0 program: Embracing failure to facilitate second-chance entrepreneurship in the Danube region.",
+			"languages": [
+                {
 					"name": "Hungarian",
 					"link": "http://www.interreg-danube.eu/approved-projects/danubechance2-0"
 				},
@@ -72,9 +76,9 @@
 		},
         {
             "imgUrl": "./img/projects/yearcompass.jpg",
-            "name": "YearCompass",
+            "name": "Founder & Lead Project Manager of YearCompass Movement",
             "projectName": "YearCompass",
-            "description": "YearCompass is a booklet that helps close your year and plan the next one. New Year's resolutions don't work; planning your year does.",
+            "description": "YearCompass is a booklet that helps close your year and plan the next one. New Year's resolutions don't work. Planning your year does.",
             "languages": [{
                 "name": "English (US)",
                 "link": "https://yearcompass.com/en"
@@ -113,9 +117,9 @@
         },
 		{
 			"imgUrl": "./img/projects/neves.jpeg",
-			"name": "NEVES",
+			"name": "Consultant & Developer of NEVES Reporting System",
 			"projectName": "NEVES",
-			"description": "The NEVES patient safety reporting system helps healthcare organisations improve patient safety by making incident data collection and analysis easy and visually appealing.",
+			"description": "The NEVES patient safety reporting system helps health care organizations improve patient safety by making incident data collection and analysis easy and visually appealing.",
 			"languages": [{
 					"name": "Hungarian",
 					"link": "https://neves.nevesforum.hu"
@@ -130,8 +134,8 @@
 		},
 		{
 			"imgUrl": "./img/projects/best-practices.png",
-			"name": "Healthcare best practices",
-			"projectName": "Healthcare best practices",
+			"name": "Consultant & Developer in the Healthcare Best Practices Project",
+			"projectName": "Healthcare Best Practices",
 			"description": "Collecting best practices that are applicable to improve patient safety within hospitals.",
 			"languages": [{
 				"name": "Hungarian",
@@ -139,29 +143,53 @@
 			}],
 			"projectUrl": "https://jogyakorlatok.betegbiztonsag.info",
 			"layoutOrder": 1
-		},
-
-		{
-			"imgUrl": "./img/projects/sites-against-humanity.png",
-			"name": "Sites Against Humanity",
-			"projectName": "Sites Against Humanity",
-			"description": "Saw an awful site? Shoot it into the sun!",
-			"languages": [{
-				"name": "Hungarian",
-				"link": "https://napbalonem.net"
-			}],
-			"projectUrl": "https://napbalonem.net",
-			"layoutOrder": 1
 		}
 	],
-	"media": [{
+	"media": [
+        {
+			"imgUrl": "./img/media/2020-04-remote-work-24-hu-article.jpg",
+			"name": "Article about experiences and dangers in remote working (Apr-2020)",
+			"description": "An article at 24.hu about past experiences and possible risks of remote working as a response to the coronavirus lockdown.",
+			"languages": [
+                {
+                    "name": "HU",
+                    "link": "https://24.hu/kultura/2020/04/19/otthonrol-dolgozas-home-office-remote-work-hetrendezes-yearcompass-munkakerules-kieges/"
+			    }
+            ],
+			"projectName": "CodeBerry",
+			"projectUrl": "https://codeberryschool.com",
+			"postUrl": "https://24.hu/kultura/2020/04/19/otthonrol-dolgozas-home-office-remote-work-hetrendezes-yearcompass-munkakerules-kieges/",
+			"mediaName": "24.hu",
+			"mediaUrl": "https://24.hu/",
+			"layoutOrder": 1
+		},
+        {
+			"imgUrl": "./img/media/2020-04-yearcompass-kossuth-radio.png",
+			"name": "Talking about monthly and daily planning in Kossuth Rádió (Apr-2020)",
+			"description": "Participating as a guest in Kossuth Rádió in a broadcast that aims to give tools to listeners to maintain a sharp mind during the coronavirus lockdown [from 21:10].",
+			"languages": [
+                {
+                    "name": "HU",
+                    "link": "https://nava.hu/id/3639470/"
+			    }
+            ],
+			"projectName": "YearCompass",
+			"projectUrl": "https://yearcompass.com.com",
+			"postUrl": "https://nava.hu/id/3639470/",
+            "mediaName": "Kossuth Rádió",
+            "mediaUrl": "https://mediaklikk.hu/kossuth/",
+			"layoutOrder": 1
+		},
+        {
 			"imgUrl": "./img/media/2020-03-codeberry-dreamjobs-live.png",
-			"name": "Talking about remote work during the COVID-19 outbreak (2020-03)",
-			"description": "A live session with DreamJobs talking about HR and remote work based on the experience with CodeBerry",
-			"languages": [{
-				"name": "HU",
-				"link": "https://www.youtube.com/watch?v=Kw3lzdhqNsw"
-			}],
+			"name": "Talking about remote work during the COVID-19 outbreak (Mar-2020)",
+			"description": "A live session with DreamJobs talking about HR and remote work based on the experience with CodeBerry.",
+			"languages": [
+                {
+				    "name": "HU",
+				    "link": "https://www.youtube.com/watch?v=Kw3lzdhqNsw"
+			    }
+            ],
 			"projectName": "CodeBerry",
 			"projectUrl": "https://codeberryschool.com",
 			"postUrl": "https://www.youtube.com/watch?v=Kw3lzdhqNsw",
@@ -171,12 +199,14 @@
 		},
 		{
 			"imgUrl": "./img/media/2019-12-yearcompass-kossuth-radio.jpg",
-			"name": "Talking about year planning and yearly reflection in Kossuth Rádió (2019-12)",
+			"name": "Talking about year planning and yearly reflection in Kossuth Rádió (Dec-2019)",
 			"description": "Participating as a guest in the year closing broadcast in Kossuth Rádió, talking about YearCompass [from 18:20].",
-			"languages": [{
-				"name": "HU",
-				"link": "https://nava.hu/id/3601508/"
-			}],
+			"languages": [
+                {
+				    "name": "HU",
+				    "link": "https://nava.hu/id/3601508/"
+			    }
+            ],
 			"projectName": "YearCompass",
 			"projectUrl": "https://yearcompass.com",
 			"postUrl": "https://nava.hu/id/3601508/",
@@ -186,12 +216,14 @@
 		},
 		{
 			"imgUrl": "./img/media/2019-11-codeberry-baconsult-live.png",
-			"name": "A live session with Peter Balogh, CEO of BaConsult (2019-11)",
-			"description": "Joining for a live session with Peter Balogh, talking about early startup life.",
-			"languages": [{
-				"name": "HU",
-				"link": "https://www.youtube.com/watch?v=Kw3lzdhqNsw"
-			}],
+			"name": "A live session with Peter Balogh, CEO of BaConsult (Nov-2019)",
+			"description": "Joining to a live meeting with Peter Balogh, talking about early startup life.",
+			"languages": [
+                {
+				    "name": "HU",
+				    "link": "https://www.youtube.com/watch?v=Kw3lzdhqNsw"
+			    }
+            ],
 			"projectName": "CodeBerry",
 			"projectUrl": "https://codeberryschool.com",
 			"postUrl": "https://www.youtube.com/watch?v=Kw3lzdhqNsw",
@@ -201,12 +233,14 @@
 		},
 		{
 			"imgUrl": "./img/media/2019-01-yearcompass-forbes.jpg",
-			"name": "YearCompass in Forbes (2019-01)",
-			"description": "An article about the YearCompass movement in the Hungarian Forbes magazine in 2019",
-			"languages": [{
-				"name": "HU",
-				"link": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/"
-			}],
+			"name": "YearCompass in Forbes (Jan-2019)",
+			"description": "An article about the YearCompass movement in the Hungarian Forbes magazine in 2019.",
+			"languages": [
+                {
+				    "name": "HU",
+				    "link": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/"
+			    }
+            ],
 			"projectName": "YearCompass",
 			"projectUrl": "https://yearcompass.com",
 			"postUrl": "https://forbes.hu/legyel-jobb/globalis-mozgalom-lett-a-magyar-evtervezo-fuzetbol-kitalaloi-megsem-akarnak-benne-uzletet-latni/",
@@ -216,12 +250,14 @@
 		},
 		{
 			"imgUrl": "./img/media/2018-12-yearcompass-petofi-tv.jpg",
-			"name": "YearCompass in Hungarian TV M2-Petőfi (2018-12)",
-			"description": "Introducing the YearCompass booklet to a wider audience in the Hungarian National Television.",
-			"languages": [{
-				"name": "HU",
-				"link": "https://nava.hu/id/3445133/"
-			}],
+			"name": "YearCompass in Hungarian TV M2-Petőfi (Dec-2018)",
+			"description": "Introducing the YearCompass booklet to a broader audience in the Hungarian National Television.",
+			"languages": [
+                {
+				    "name": "HU",
+				    "link": "https://nava.hu/id/3445133/"
+			    }
+            ],
 			"projectName": "YearCompass",
 			"projectUrl": "https://yearcompass.com",
 			"postUrl": "https://nava.hu/id/3445133/",
@@ -231,29 +267,20 @@
 		},
 		{
 			"imgUrl": "./img/media/2018-11-codeberry-eu-top50.jpg",
-			"name": "CodeBerry EU Top 50 pitch (2018-11)",
-			"description": "Pitching CodeBerry in the EU Parliament participating in the EU Top 50 competition in 2018",
-			"languages": [{
-				"name": "EN",
-				"link": "https://www.youtube.com/watch?v=8FIztJWTvZs"
-			}],
+			"name": "CodeBerry EU Top 50 pitch (Nov-2018)",
+			"description": "Pitching CodeBerry in the EU Parliament participating in the EU Top 50 competition in 2018.",
+			"languages": [
+                {
+				    "name": "EN",
+				    "link": "https://www.youtube.com/watch?v=8FIztJWTvZs"
+			    }
+            ],
 			"projectName": "CodeBerry",
 			"projectUrl": "https://codeberryschool.com",
 			"postUrl": "https://www.youtube.com/watch?v=8FIztJWTvZs",
 			"mediaName": "EU Top 50",
 			"mediaUrl": "https://www.eutop50.eu/#mission",
 			"layoutOrder": 1
-		},
-		{
-			"layoutOrder": 1,
-			"embed": true,
-			"embedCode": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/2sayCkmNbt8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
-		},
-		{
-			"layoutOrder": 1,
-			"embed": true,
-			"embedCode": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https:\/\/w.soundcloud.com\/player\/?url=https%3A\/\/api.soundcloud.com\/tracks\/805856467&color=%2304242c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"><\/iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https:\/\/soundcloud.com\/uiceheidd\" title=\"Juice WRLD\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Juice WRLD<\/a> \u00B7 <a href=\"https:\/\/soundcloud.com\/uiceheidd\/righteous\" title=\"Righteous\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Righteous<\/a><\/div>"
 		}
-	],
-	"videos": []
+	]
 }

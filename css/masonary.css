@@ -46,17 +46,13 @@
 	margin: 0 0 100px;
 }
 
-.cards-group#videos {
-	margin: 0;
-}
-
 .cards h1 {
 	font-size: 64px;
 	color: #647ddc;
 	margin: 0 0 50px;
 	padding: 0 0 20px;
 	text-align: center;
-	font-family: "Source Sans Pro", "Roboto";
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
 }
 
 .cards .icon {
@@ -179,7 +175,11 @@
 .card .title {
 	text-transform: none;
 	font-weight: bold;
-	font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+}
+
+.card .title:hover {
+	color: #aaaaaa !important;
 }
 
 .card .desc {
@@ -292,19 +292,6 @@
 	z-index: 10;
 }
 
-.videos .card::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	bottom: 0;
-	right: 0;
-	background: rgb(3,42,51);
-	background: linear-gradient(0deg, rgba(3,42,51,0.8841911764705882) 0%, rgba(1,211,254,0) 90%);
-}
-
 .projects .project-name {
 	background: #bf4c64;
 }
@@ -319,20 +306,6 @@
 .medias .project-name:hover{
 	background: #4357a0;
 	color: white !important;
-}
-.videos .project-name {
-	background: #333333;
-	padding: 0 10px;
-	height: 30px;
-	display: flex;
-	align-items: center;
-	font-size: 14px;
-}
-
-.videos {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
 .media-card {
@@ -374,7 +347,7 @@
 	font-size: 18px;
 	line-height: 20px;
 	max-width: 90%;
-	font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
 }
 
 .media-card__bottom .desc {

@@ -1,11 +1,9 @@
 $.getJSON("./js/data.json", function(data) {
 	var projects = data['projects'],
-		medias = data['media'],
-		videos = data['videos'];
+		medias = data['media'];
 
 	let projectsList = '',
-		mediasList = '',
-		videosList = '';
+		mediasList = '';
 
 	projectsList = appendListItems(projects, "projects");
 	mediasList = appendListItems(medias, "medias");
@@ -14,30 +12,26 @@ $.getJSON("./js/data.json", function(data) {
 		if ($(".cards").length) {
 			$(".projects").append(projectsList);
 			$(".medias").append(mediasList);
-			$(".videos").append(videosList);
 
-			$(".lang").on('mouseenter', function() {
+			var $lang = $(".lang");
+      $lang.on('mouseenter', function() {
 				$(this).addClass('hovered');
 				var visiblity = $(this).closest(".card__top").find(".lang__list").css('display');
 				console.log(visiblity);
 				if (visiblity === 'none') $(this).closest(".card__top").find(".lang__list").slideToggle();
 				if (visiblity === 'none') $(this).closest(".card__top").find(".lang span").fadeIn();
 			});
-			$(".lang").on('mouseleave', function() {
-				var list = $(this).closest(".card__top").find(".lang__list");
-				if ($(this).closest(".card__top").find(".lang__list:hover").length != 0) {
-					return;
-				} else {
+      $lang.on('mouseleave', function() {
+				// var list = $(this).closest(".card__top").find(".lang__list");
+				if ($(this).closest(".card__top").find(".lang__list:hover").length === 0) {
 					$(".lang__list").hide();
 					$(this).closest(".card__top").find(".lang span").hide();
 					$(this).removeClass('hovered');
 				}
 			});
       $(".lang__list").on('mouseleave', function() {
-				var list = $(this).closest(".lang");
-				if ($(".lang:hover").length != 0) {
-					return;
-				} else {
+				// var list = $(this).closest(".lang");
+				if ($(".lang:hover").length === 0) {
 					$(".lang__list").hide();
 					$(".lang span").hide();
 					$(".lang").removeClass('hovered');
@@ -73,7 +67,7 @@ function appendListItems(array, type) {
 		});
 	} else if (type === "medias") {
 		$.each(array, function(key, val) {
-			if (val.embed == true) {
+			if (val.embed === true) {
 				list += `<div class="grid-item span-${val.layoutOrder} card-embed" data-sal="fade" data-sal-duration="2000" data-sal-easing="ease-out-back">
 					${val.embedCode}
 				</div>`
