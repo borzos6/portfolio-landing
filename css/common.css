@@ -1,8 +1,12 @@
 @import '../css/sal.css';
 
+html {
+  scroll-behavior: smooth
+}
+
 body {
 	margin: 0;
-	font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 div {
@@ -138,8 +142,7 @@ header a {
 	position: absolute;
 	top: 210px;
 	color: #1d1d1d;
-	font-family: "Source Sans Pro";
-	font-weight: 100;
+	font-family: "Source Sans Pro", "Roboto", "sans-serif";
 	align-items: center;
 	font-weight: 400;
 }
@@ -195,7 +198,7 @@ footer {
 	color: #082594;
 }
 
-.yellow {
+.blue {
 	color: #647ddc;
 }
 @media only screen and (max-width: 768px) {

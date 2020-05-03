@@ -1,17 +1,21 @@
 $.getJSON("./js/data.json", function(data) {
 	var projects = data['projects'],
-		medias = data['media'];
+		  media = data['media'],
+		  materials = data['materials'];
 
 	let projectsList = '',
-		mediasList = '';
+		  mediaList = '',
+		  materialsList = '';
 
 	projectsList = appendListItems(projects, "projects");
-	mediasList = appendListItems(medias, "medias");
+	mediaList = appendListItems(media, "media");
+	materialsList = appendListItems(materials, "materials");
 
 	var waitContent = setInterval(function() {
 		if ($(".cards").length) {
 			$(".projects").append(projectsList);
-			$(".medias").append(mediasList);
+			$(".media").append(mediaList);
+			$(".materials").append(materialsList);
 
 			var $lang = $(".lang");
       $lang.on('mouseenter', function() {
@@ -64,7 +68,7 @@ function appendListItems(array, type) {
 					</div>
 				</div>`
 		});
-	} else if (type === "medias") {
+	} else if (type === "media") {
 		$.each(array, function(key, val) {
 			if (val.embed === true) {
 				list += `<div class="grid-item span-${val.layoutOrder} card-embed" data-sal="fade" data-sal-duration="2000" data-sal-easing="ease-out-back">
@@ -86,6 +90,18 @@ function appendListItems(array, type) {
 						</div>
 					</div>`
 			}
+		});
+	} else if (type === "materials") {
+		$.each(array, function(key, val) {
+      let links = '';
+      $.each(val.links, function(key, val) {
+        links += `[<a class="material-link" target="_blank" href="${val.url}">${val.title}</a>]`;
+      });
+      list += `
+        <li class="material-text">
+          [${val.language}] ${val.date} ${val.type}:
+          <strong>${val.title} ${links}</strong>
+        </li>`
 		});
 	}
 	return list;

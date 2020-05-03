@@ -242,5 +242,23 @@
 			"mediaUrl": "https://www.eutop50.eu/#mission",
 			"layoutOrder": 1
 		}
-	]
+	],
+    "materials": [
+        {
+            "language": "HU",
+            "date": "2020-05-08",
+            "type": "Workshop",
+            "title": "Hungarian entrepreneurs abroad - Remote work | Külhoni magyar vállalkozók képzése – Távmunka",
+            "links": [
+                {
+                    "url": "https://docs.google.com/presentation/d/15RuCHCsgO0cU9kkjpcGv0zl39kR81b8U7GWbt39mrwQ/edit?usp=sharing",
+                    "title": "Prezentáció"
+                },
+                {
+                    "url": "https://drive.google.com/file/d/1iZexWPCsMsKObEn-Wiu9foOYzjndlgmi/view?usp=sharing",
+                    "title": "Vállalkozó mátrix"
+                }
+            ]
+        }
+    ]
 }

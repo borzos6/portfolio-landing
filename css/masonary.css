@@ -273,7 +273,7 @@
 	transition: all .3s linear;
 }
 
-.medias .card::before {
+.media .card::before {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -291,14 +291,14 @@
 	background: #bf4c64;
 }
 
-.medias .media-name,
-.medias .project-name {
+.media .media-name,
+.media .project-name {
 	background: #647ddc;
 	margin: 0 0 0 10px;
 	transition: all .4s linear;
 }
-.medias .media-name:hover,
-.medias .project-name:hover{
+.media .media-name:hover,
+.media .project-name:hover{
 	background: #4357a0;
 	color: white !important;
 }

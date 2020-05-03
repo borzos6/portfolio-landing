@@ -40,21 +40,23 @@
 
 		  gtag('config', 'UA-141698457-2');
 		</script>
-		<script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
+<!--		<script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>-->
 	</head>
 
 	<body>
 
 		<header class="wrapper"  data-sal="slide-down" data-sal-delay="200" data-sal-duration="500">
+			<a href="#contact">Contact</a>
 			<a href="#projects">Projects</a>
-			<a href="#medias">Media</a>
+			<a href="#media">Media</a>
+			<a href="#materials">Materials</a>
 		</header>
 
 		<div class="content">
 			<section id="hero" class="hero wrapper">
-				<div class="flex row m-wrap">
+				<div id="contact" class="flex row m-wrap">
 					<div class="flex-1 hero-left" data-sal="slide-right" data-sal-delay="200" data-sal-duration="1500">
-						<div class="hero__title">Hello.  My name is <br /><b class="yellow name">László Békéssy</b></div>
+						<div class="hero__title">Hello.  My name is <br /><b class="blue name">László Békéssy</b></div>
 						<div class="hero-contact">
 							<a class="hero-icon" target="_blank" href="https://www.linkedin.com/in/laszlo-bekessy/"><i class="fab fa-linkedin"></i></a>
 							<a class="hero-icon" target="_blank" href="https://www.facebook.com/bekessy.laszlo"><i class="fab fa-facebook"></i></a>
@@ -76,11 +78,20 @@
 						<div class="grid-layout projects"></div>
 					</div>
 
-					<div id="medias" class="cards-group">
+					<div id="media" class="cards-group">
 						<h1 data-sal="fade" data-sal-delay="200" data-sal-duration="2000">
 							Media
 						</h1>
-						<div class="grid-layout medias"></div>
+						<div class="grid-layout media"></div>
+					</div>
+
+          <div id="materials" class="cards-group">
+						<h1 data-sal="fade" data-sal-delay="200" data-sal-duration="2000">
+							Public materials
+						</h1>
+            <div class="flex row m-wrap">
+              <ul class="materials"></ul>
+            </div>
 					</div>
 				</div>
 			</section>
