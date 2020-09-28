@@ -145,7 +145,7 @@
 			"layoutOrder": 1
 		},
         {
-            "imgUrl": "./img/projects/patient-safety3.png",
+            "imgUrl": "./img/projects/patient-safety.png",
             "name": "Developer of the Patient Safety Showcase site",
             "projectName": "Healthcare Patient Safety",
             "description": "Collecting the sites and publications dealing with patient safety to make healthcare safer.",

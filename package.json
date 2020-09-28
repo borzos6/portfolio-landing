@@ -1,21 +1,20 @@
 {
-  "name": "portfolio",
+  "name": "laszlobekessy-portfolio",
   "version": "1.0.0",
-  "description": "Portfolio page",
+  "description": "László Békéssy's portfolio page",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ./ -p 1337"
+      "start": "http-server ./ -p 1337",
+      "build": "rm -rf ./dist && mkdir ./dist && cp -r css favicon fonts img js index.html dist/",
+      "deploy": "aws s3 sync ./dist s3://laszlo.bekessy.me --delete --profile laszlobekessy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sibrahimpa1/portfolio-landing.git"
+    "url": "https://github.com/borzos6/portfolio-landing"
   },
-  "author": "SIbra",
+  "author": "borzos6",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sibrahimpa1/portfolio-landing/issues"
-  },
-  "homepage": "https://github.com/sibrahimpa1/portfolio-landing#readme",
+  "homepage": "https://laszlo.bekessy.me",
   "devDependencies": {
     "http-server": "^0.12.3"
   }
