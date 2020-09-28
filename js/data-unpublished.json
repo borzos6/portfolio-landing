@@ -1,17 +1,5 @@
 {
     "projects": [
-        {
-            "imgUrl": "./img/projects/sites-against-humanity.png",
-            "name": "Sites Against Humanity",
-            "projectName": "Sites Against Humanity",
-            "description": "Saw an awful site? Shoot it into the sun!",
-            "languages": [{
-                "name": "Hungarian",
-                "link": "https://napbalonem.net"
-            }],
-            "projectUrl": "https://napbalonem.net",
-            "layoutOrder": 1
-        }
     ],
     "media": [
         {

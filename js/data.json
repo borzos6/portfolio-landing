@@ -143,7 +143,31 @@
 			}],
 			"projectUrl": "https://jogyakorlatok.betegbiztonsag.info",
 			"layoutOrder": 1
-		}
+		},
+        {
+            "imgUrl": "./img/projects/patient-safety3.png",
+            "name": "Developer of the Patient Safety Showcase site",
+            "projectName": "Healthcare Patient Safety",
+            "description": "Collecting the sites and publications dealing with patient safety to make healthcare safer.",
+            "languages": [{
+                "name": "Hungarian",
+                "link": "https://betegbiztonsag.info"
+            }],
+            "projectUrl": "https://betegbiztonsag.info",
+            "layoutOrder": 1
+        },
+        {
+            "imgUrl": "./img/projects/sites-against-humanity.png",
+            "name": "Sites Against Humanity",
+            "projectName": "Sites Against Humanity",
+            "description": "Saw an awful site? Shoot it into the sun! Just a hobby project.",
+            "languages": [{
+                "name": "Hungarian",
+                "link": "https://napbalonem.net"
+            }],
+            "projectUrl": "https://napbalonem.net",
+            "layoutOrder": 1
+        }
 	],
 	"media": [
         {
